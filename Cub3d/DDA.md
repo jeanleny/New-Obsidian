@@ -75,8 +75,24 @@ t_vect2	get_proj_x(float pos, float next_side, float dir1, float dir2)
 }
 ```
 
+Note that we need a `get_proj_x` and a `get_proj_y` function for each side.
 
 ![[Pasted image 20251021103656.png]]
 On this image, we replaced the x and y axis with A and B.
 The B projection is just our player position minus the next side.
 The A projection is determined by our director vector.
+
+Now that we have these measurement, we can apply pythagoras theorem.
+```c
+float	pythagoras(float a, float b)
+{
+	float	result;
+
+	result = sqrtf(a * a + b * b);
+	return (result);
+}
+```
+
+Now we can check what distance to the next side is shorter and keep this one.
+Note that you keep the the new distance endpoint as the new player position.
+At the end of the loop we would have an accumulated distance of each square the we can pass to the [[Rendering]].
