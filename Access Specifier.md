@@ -19,5 +19,13 @@ int main() {
   return 0;
 }
  ```
-In this case the programm will return an error :
-Error: y is private
+In this case the program will return an error on compilation :
+Error: y is a private member of PhoneBook
+
+By default, all members of a class are private if not specified.
+
+Public :
+Members that are publics are just members of a class that can be accessed and modified outside of the code.
+
+Protected :
+Like private, protected members cannot be accessed from outside the code, but they can be accessed in child classes.
