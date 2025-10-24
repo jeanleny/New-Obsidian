@@ -95,4 +95,4 @@ float	pythagoras(float a, float b)
 
 Now we can check what distance to the next side is shorter and keep this one.
 Note that you keep the the new distance endpoint as the new player position.
-At the end of the loop we would have an accumulated distance of each square the we can pass to the [[Rendering]].
+At the end of the loop we would have an accumulated distance of each square the we can pass to the [[Raycasting Rendering]].

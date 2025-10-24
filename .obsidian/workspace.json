@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Access Specifier.md",
+                "file": "Cub3d/Raycasting Rendering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Access Specifier"
+              "title": "Raycasting Rendering"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lan.md",
+                "file": "Cub3d/Raycasting Rendering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lan"
+              "title": "Outline of Raycasting Rendering"
             }
           },
           {
@@ -212,8 +212,12 @@
   },
   "active": "bf04b43853008974",
   "lastOpenFiles": [
-    "CPP/CPP Class.md",
+    "Cub3d/DDA.md",
+    "Cub3d/Vect2 math/Rotation.md",
+    "Cub3d/img/Pasted image 20251021103656.png",
+    "Cub3d/img/Pasted image 20251021102528.png",
     "Access Specifier.md",
+    "CPP/CPP Class.md",
     "CPP/Iostream.md",
     "CPP/Scope resolution operator.md",
     "CPP/Namespaces.md",
@@ -221,15 +225,11 @@
     "CPP/Extraction Operator.md",
     "Untitled.base",
     "Untitled.canvas",
-    "Cub3d/DDA.md",
-    "Cub3d/Rendering.md",
+    "Cub3d/Raycasting Rendering.md",
     "Untitled",
     "CPP",
     "Cub3d/Raycasting.md",
-    "Cub3d/Vect2 math/Rotation.md",
-    "Cub3d/img/Pasted image 20251021102528.png",
     "Cub3d/img",
-    "Cub3d/img/Pasted image 20251021103656.png",
     "Excalidraw/Drawing 2025-10-21 10.19.42.excalidraw.md",
     "Excalidraw",
     "Cub3d/Vect2 math",
