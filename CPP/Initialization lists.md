@@ -1,6 +1,7 @@
 In order to initialize values while constructing classes, we can use [[This Pointer]] or [[Initialization lists]].
 
 Those lists allow us to set each value directly in the constructor call next to the parameters.
+When using this method, we're not attributing, we're INITIALIZING values, which is different.
 Example
 .hpp
 ```c++
