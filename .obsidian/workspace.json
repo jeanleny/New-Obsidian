@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initialization lists.md",
+                "file": "CPP/Initialization lists.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,7 +184,7 @@
   "active": "0979b90c81a30e0f",
   "lastOpenFiles": [
     "CPP/This Pointer.md",
-    "Initialization lists.md",
+    "CPP/Initialization lists.md",
     "CPP/CPP Class.md",
     "Access Specifier.md",
     "Cub3d/DDA.md",

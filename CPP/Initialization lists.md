@@ -53,3 +53,4 @@ int	main(void)
 	return (1);
 }
 ```
+In this exemple, the class members becomes the parameters of the given constructor.
