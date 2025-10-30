@@ -66,3 +66,14 @@ int	main(void)
 
 in this case the program won't compile !
 We're trying to change the value of the member pi which is a const.
+
+Its a common thing to write Setters and Getters in const.
+Getters because result of getters will stay the same.
+```c++
+std::string	getDarkestSecret(void) const;
+```
+
+Setters because the value to set will alays be the same.\
+```c++
+void	setFirstName(const std::string &firstName);
+```
