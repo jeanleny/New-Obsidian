@@ -102,5 +102,3 @@ So now `$(OBJ)` contains the object file paths corresponding to all your source 
 | Final result                 | A list of `.o` files in `$(BUILD_DIR)` matching `.cpp` files in `$(SRC_DIR)` |
 
 ---
-
-Would you like me to show a minimal **working Makefile example** that uses this line (with actual compilation rules)? It can help make this super concrete.
