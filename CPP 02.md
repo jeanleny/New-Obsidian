@@ -37,6 +37,12 @@ Fixed Fixed::operator-(Fixed const & rhs) const
 
 MULTIPLY operator 'x'
 
+In this operator overload, here what's happening step by step
+with $3 \times 2$ because we are shifting bits to get the fixed points value, the calculation becomes wrong
+When shifting bits : $3 \times 1 000 000 \times 2 \times 1 000 000 = 6 000000000000$
+
+So we prefer shift back all the result to get the right value 
+Here, the long is used to store a potentially overflowed value, this way we can use it, even if its wrong because its how normal operators works.
 
 ```c++
 Fixed Fixed::operator*(Fixed const & rhs) const
@@ -50,6 +56,16 @@ Fixed Fixed::operator*(Fixed const & rhs) const
 ```
 
 DIVIDE operator '/'
+Same as before, we're shifting bits to get the fixedpoint value.
+In this case, a simplification is made, so we have to set it back.
+# $\frac{3 \times 1 000 000} {2 \times 1 000 000}$
+
+Becomes : 
+# $\frac{3}{2}$
+
+Which is wrong in our case so we shift everything back
+# $\frac{3}{2} \times 1 000 000$
+And the long is also used to store the overflowed value.
 ```c++
 Fixed Fixed::operator/(Fixed const & rhs) const
 {
