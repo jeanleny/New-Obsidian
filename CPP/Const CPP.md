@@ -77,3 +77,4 @@ Setters because the value to set will alays be the same.\
 ```c++
 void	setFirstName(const std::string &firstName);
 ```
+

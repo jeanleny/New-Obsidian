@@ -76,4 +76,3 @@ Fixed Fixed::operator/(Fixed const & rhs) const
 	return (result);
 }
 ```
-
