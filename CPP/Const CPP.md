@@ -78,3 +78,60 @@ Setters because the value to set will alays be the same.\
 void	setFirstName(const std::string &firstName);
 ```
 
+
+# const on constructors
+Const, by definition, cannot be changed, that so, on constructors calls, const variable cannot be assigned by overload operators.
+But, they can through initialisation list.
+Because, on initialisation list, const variable are not considered initialized, so you can set values on them.
+
+Great use of const :
+```c++
+const int test = 6;
+```
+
+
+Won't compile :
+```c++
+const int test;
+test = 6;
+```
+
+```c++
+
+class Base
+{
+public:
+	Base();
+	Base(const Base& other);
+	Base& operator=(const Base& other);
+};
+
+Base::Base() {}
+
+Base::Base(const Base& other)
+{
+	(void) other;
+}
+
+void Base::operator=(const Base& other)
+{
+	(void) other;
+	return (*this);
+}
+
+///////////
+
+int main(void)
+{
+	Base b1;// Default constructor
+	
+	Base b2(b1);// Copy constructor
+	
+	Base b3 = b1;// Copy constructor
+	
+	Base b4;// Default constructor
+	b4 = b1;// Assignement operator
+}
+
+int a = int();
+```
