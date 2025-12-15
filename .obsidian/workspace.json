@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/Namespaces.md",
+                "file": "CPP/Scope resolution operator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Namespaces"
+              "title": "Scope resolution operator"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "46273388edd98f28",
   "lastOpenFiles": [
+    "CPP/Namespaces.md",
     "CPP/Iostream.md",
     "CPP module 00/ex00/Megaphone.md",
-    "CPP/Namespaces.md",
     "Namespace.md",
     "CPP 02.md",
     "namespace.md",
