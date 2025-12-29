@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "WIP module 06"
             }
+          },
+          {
+            "id": "b270bade96f7ad2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPP 06/WIP module 06.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WIP module 06"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,10 +210,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "83851cb4caa6d3ec",
+  "active": "b270bade96f7ad2c",
   "lastOpenFiles": [
-    "CPP/Scope resolution operator.md",
+    "CPP 07/WIP CPP module 07.md",
     "CPP 06/WIP module 06.md",
+    "CPP 07",
+    "CPP/Scope resolution operator.md",
     "CPP 06",
     "CPP/Namespaces.md",
     "CPP/Iostream.md",
@@ -234,8 +250,6 @@
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png",
     "CPP",
-    "Cub3d/img",
-    "Excalidraw/Drawing 2025-10-21 10.19.42.excalidraw.md",
-    "Cub3d/Vect2 math"
+    "Cub3d/img"
   ]
 }
