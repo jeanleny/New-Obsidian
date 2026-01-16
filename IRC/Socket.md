@@ -17,6 +17,7 @@ Stream socket ref : SOCK_STREAM
 Datagram socket ref : SOCK_DGRAM
 
 Stream Socket is using [[TCP-IP]] protocol.
+Datagram Socket us using [[UDP]] protocol.
 
 Stream Socket are reliable two-way connected communication streams.
 Its going to make the connection like a stream, you can either pull or send data through this stream.
@@ -32,3 +33,9 @@ The network will do the best effort to get the data, but if they get lost, they'
 We also never get **congestion control**, wich means data buffer overflow control. 
 So we dont have any data restricion, but we could clog the network by sending to much data.
 So its up to the project to use the right socket type.
+
+We often call datagram "connection less".
+Its because of the way of transmiting data.
+The Stream socket is like a full Phone call wich estalbished a continuous connection.
+The Datagram socket got a package to deliver at an adress, like a postcard.
+So its less safer, but its necessarely used on various program(multiplayer, video, audio, telecommunication...).
