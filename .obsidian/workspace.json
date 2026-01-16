@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IRC/Socket.md",
+                "file": "NetPractice/TCP-IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Socket"
+              "title": "TCP-IP"
             }
           }
         ],
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IRC/Socket.md",
+                "file": "NetPractice/TCP-IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Socket"
+              "title": "Outgoing links from TCP-IP"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "0065122cb2c78ab4",
   "lastOpenFiles": [
-    "().md",
     "IRC/Socket.md",
+    "().md",
     "File descriptor.md",
     "IRC/Multiplexing.md",
     "IRC",
