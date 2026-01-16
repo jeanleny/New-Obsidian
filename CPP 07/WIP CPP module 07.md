@@ -6,3 +6,35 @@ Array(unsigned int const& n) :  _size(n), _array(new T[n]){
 				_array[i] = T();
 		};
 ```
+
+
+When you write:
+
+```cpp
+iter(tab, 5, print);
+```
+
+The compiler does this:
+
+1. Deduces `T = int`
+2. Sees required function type:
+
+   ```cpp
+   void (*)(int const&)
+   ```
+3. Instantiates:
+
+   ```cpp
+   print<int>
+   ```
+4. Converts it to a function pointer
+
+Same for:
+
+```cpp
+iter(tab2, 5, print);
+```
+
+* `T = Awesome`
+* Instantiates `print<Awesome>`
+* Calls `operator<<`
