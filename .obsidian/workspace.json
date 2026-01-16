@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lan.md",
+                "file": "IRC/Socket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lan"
+              "title": "Outgoing links from Socket"
             }
           },
           {
@@ -238,7 +238,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1b742abd76751ac7",
+  "active": "0065122cb2c78ab4",
   "lastOpenFiles": [
     "().md",
     "IRC/Socket.md",
