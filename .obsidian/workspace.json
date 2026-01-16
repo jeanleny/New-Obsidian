@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "addrinfo.md",
+                "file": "IRC/addrinfo.md",
                 "mode": "source",
                 "source": false
               },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "addrinfo.md",
+                "file": "IRC/addrinfo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -265,7 +265,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -280,10 +281,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0065122cb2c78ab4",
+  "active": "4c3311e18a02d70f",
   "lastOpenFiles": [
     "IRC/getaddrinfo.md",
-    "addrinfo.md",
+    "IRC/addrinfo.md",
     "Data encapsulation.md",
     "IRC/Socket.md",
     "Pasted image 20260116150500.png",
