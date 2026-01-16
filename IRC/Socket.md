@@ -16,11 +16,19 @@ Defines :
 Stream socket ref : SOCK_STREAM
 Datagram socket ref : SOCK_DGRAM
 
-Internet Socket are using TCP protocol
+Stream Socket is using [[TCP-IP]] protocol.
 
 Stream Socket are reliable two-way connected communication streams.
+Its going to make the connection like a stream, you can either pull or send data through this stream.
+Its just allow the full continuous stream of data without seing the chunking by setting packet of the datas, a continuous stream.
+The stream socket is also called "reliable", wich means that even if the packets are sent not in right order, it will still be replaced/resent in the back by the TCP protocol.
 
+But correcting data stream order or missing small data parts can have a cost depends on what we want to do, and the stream socket is, sometimes, not the right choice.
+For exemple, if the data that are sents by the stream socket is being resent because a data is missing in the transmission, the video will get lag and will block to resend everything.
+But this tiny missing data is just a frame that is barely visible by the user, so this socket is not the right one. 
 
-Datagram socket are sometimes called "connectionless sockets"
-
-
+With Datagram socket, we're using only **one data packet**, so no reliability, no resending/reordering.
+The network will do the best effort to get the data, but if they get lost, they're lost.
+We also never get **congestion control**, wich means data buffer overflow control. 
+So we dont have any data restricion, but we could clog the network by sending to much data.
+So its up to the project to use the right socket type.

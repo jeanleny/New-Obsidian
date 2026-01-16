@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NetPractice/TCP-IP.md",
+                "file": "IRC/Socket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP-IP"
+              "title": "Socket"
             }
           }
         ],
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NetPractice/TCP-IP.md",
+                "file": "IRC/Socket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TCP-IP"
+              "title": "Outgoing links from Socket"
             }
           },
           {
@@ -238,8 +238,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0065122cb2c78ab4",
+  "active": "1b742abd76751ac7",
   "lastOpenFiles": [
+    "NetPractice/TCP-IP.md",
     "IRC/Socket.md",
     "().md",
     "File descriptor.md",
@@ -271,7 +272,6 @@
     "Cub3d/Raycasting.md",
     "Cub3d/Vect2 math/Rotation.md",
     "Untitled.canvas",
-    "Excalidraw/Drawing 2025-11-14 15.44.42.excalidraw.md",
     "Untitled.base",
     "Excalidraw",
     "Fixed point value",
