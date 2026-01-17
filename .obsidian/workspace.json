@@ -160,9 +160,37 @@
               "icon": "lucide-file",
               "title": "bind"
             }
+          },
+          {
+            "id": "6abaad4e1272ba14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IRC/Server creation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Server creation"
+            }
+          },
+          {
+            "id": "ef50acc8fbbda124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IRC/Client managing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Client managing"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -323,10 +351,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "84d429f556c2a96d",
+  "active": "ef50acc8fbbda124",
   "lastOpenFiles": [
-    "IRC/Func/addrinfo.md",
+    "IRC/Server creation.md",
+    "IRC/Client managing.md",
     "IRC/Func/bind.md",
+    "IRC/Func/addrinfo.md",
     "IRC/Func/socket.md",
     "IRC/Socket.md",
     "IRC/Func/getaddrinfo.md",
@@ -356,8 +386,6 @@
     "CPP/Setter and Getter.md",
     "CPP/Insertion Operator.md",
     "CPP/Extraction Operator.md",
-    "CPP/CPP Class.md",
-    "CPP/Access Specifier.md",
     "Untitled.canvas",
     "Untitled.base",
     "Excalidraw",
