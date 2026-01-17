@@ -9,3 +9,5 @@ We can use what we get in the [[getaddrinfo]] before.
 ```c++
 socket(res->ai_family, res->ai_socktype, res->ai_protocol);
 ```
+
+Returns -1 on error.
