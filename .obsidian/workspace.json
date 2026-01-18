@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IRC/Func/listen.md",
+                "file": "IRC/Func/accept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "listen"
+              "title": "accept"
+            }
+          },
+          {
+            "id": "26a8f616c8240490",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IRC/Func/epoll.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "epoll"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +197,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0065122cb2c78ab4",
+  "active": "26a8f616c8240490",
   "lastOpenFiles": [
+    "IRC/Func/accept.md",
+    "IRC/Func/epoll.md",
+    "IRC/Func/connect.md",
+    "IRC/Func/listen.md",
     "IRC/Server creation.md",
     "IRC/Func/bind.md",
     "IRC/Socket.md",
@@ -191,13 +211,10 @@
     "IRC/Client managing.md",
     "IRC/Func/addrinfo.md",
     "IRC/Multiplexing.md",
-    "IRC/Func/connect.md",
     "Data encapsulation.md",
     "CPP 07/WIP CPP module 07.md",
     "CPP 06/WIP module 06.md",
     "CPP/Scope resolution operator.md",
-    "IRC/Func/accept.md",
-    "IRC/Func/listen.md",
     "IRC/Func",
     "Pasted image 20260116150500.png",
     "UDP.md",
@@ -213,7 +230,6 @@
     "Namespace.md",
     "CPP 02.md",
     "namespace.md",
-    "CPP/This Pointer.md",
     "CPP module 00/ex00",
     "CPP module 00",
     "Untitled.canvas",
