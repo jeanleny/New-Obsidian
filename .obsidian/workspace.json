@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0065122cb2c78ab4",
+  "active": "8e8072b44f91b0aa",
   "lastOpenFiles": [
     "IRC/Socket.md",
     "IRC/Func/socket.md",
