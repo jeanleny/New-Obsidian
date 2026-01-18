@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IRC/Func/socket.md",
+                "file": "IRC/Func/listen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "socket"
+              "title": "listen"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,17 +181,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8e8072b44f91b0aa",
+  "active": "0065122cb2c78ab4",
   "lastOpenFiles": [
+    "IRC/Server creation.md",
+    "IRC/Func/bind.md",
     "IRC/Socket.md",
     "IRC/Func/socket.md",
     "IRC/Func/getaddrinfo.md",
-    "IRC/Server creation.md",
     "IRC/Client managing.md",
     "IRC/Func/addrinfo.md",
     "IRC/Multiplexing.md",
     "IRC/Func/connect.md",
-    "IRC/Func/bind.md",
     "Data encapsulation.md",
     "CPP 07/WIP CPP module 07.md",
     "CPP 06/WIP module 06.md",

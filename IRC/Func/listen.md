@@ -4,5 +4,9 @@ int listen(int sockfd, int backlog);
 ```
 - Sockfd is still the socket file from socket system call.
 - Backlog is the number of connection allowed on the incoming queue.
-Incoming connections are going to wait in this queu until you [[accept]] them and this is the limit on how many can queue up.
+It changes the **state** of the sockfd.
+Sockfd is now a **passive** socket marked by the kernel as a **listening socket**, this socket is now able to receive incoming connection requests.
+
+The kernel is creating a queue.
+Incoming connections are going to wait in this queue until you [[accept]] them and **backlog** is how many can queue up.
 Most of the time, we can set it up to 10.
