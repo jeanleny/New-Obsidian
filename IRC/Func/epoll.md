@@ -54,3 +54,22 @@ With this function we explicitly tell epoll what to watch.
 
 In our case we will set op with EPOLL_CTL_ADD wich will add the fd to the set of file descriptor monitored by the epoll instance (epfd).
 The events to be monitored are given in the epoll_event structure.
+
+# epoll_wait
+
+Next we want our server to wait for an event.
+Epoll_wait waits until at least one event has occurred on the epoll instance or the timeout is reached.
+Once epoll_wait has stopped, it returns the **number of fd ready for I/O** and all the events are stored in a **epoll_event structure**.
+So these events tells you :
+Wich fd
+What kind of event happened.
+```c++
+int epoll_wait (int epfd, struct epoll_event *events, 
+                int maxevents, int timeout);
+```
+- Epfd is the epoll instance fd
+- events is the structure that will store the events
+- max event is the event's limit.
+- timeout is in milisecond.
+
+Now epoll told us which FD's we can work with, we have to set our routine to get what these files are sending us.

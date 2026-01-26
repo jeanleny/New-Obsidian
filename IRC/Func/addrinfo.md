@@ -7,7 +7,6 @@ struct addrinfo {
     size_t           ai_addrlen;   // size of ai_addr in bytes
     struct sockaddr *ai_addr;      // struct sockaddr_in or _in6
     char            *ai_canonname; // full canonical hostname
-
     struct addrinfo *ai_next;      // linked list, next node
 };
 ```
