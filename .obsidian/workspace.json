@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,7 +210,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6a32ef541f225360",
+  "active": "0065122cb2c78ab4",
   "lastOpenFiles": [
     "IRC/Channel/Regular channel.md",
     "IRC/Channel/Channel Mode flags.md",
