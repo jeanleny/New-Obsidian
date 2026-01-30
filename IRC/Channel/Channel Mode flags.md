@@ -12,7 +12,7 @@
 	give chan operator privileges to a user on the channel
 	``MODE #Finnish +o Kilroy
 	This will add the operator privilege to kilroy on the Finnish channel
-- **+l protected topic mode**
+- **+l limit mode**
 	sets the limit for the number of users on the channel
 	``MODE #eu-opers +l 10
 	This will set the number of users on channel to 10

@@ -31,8 +31,6 @@ For IRC 2812 the format look like so
 ```
 see [IRC_2812](https://www.rfc-editor.org/rfc/rfc2812#section-2.3.1)
 
-- The prefix will be the name of the \r\ emitter(ircserver/nickname)
-- command can contain, depends on the message : 
-	- the literal cmd/msg
-	- a 3 digit code that refer to the cmd see [cmd_response](https://www.rfc-editor.org/rfc/rfc2812#section-5) this is code is usually given by the command section you want to use.
-	  Example : Join message will use (RPL_TOPIC). see [join_message](https://www.rfc-editor.org/rfc/rfc2812#section-2.3.1)
+The prefix may take the server name OR the NICKNAME then "!" then the USERNAME then the HOSTNAME formatted like so:
+- server name : ``:servername
+- Second way : ``:nickname!username@hostname
