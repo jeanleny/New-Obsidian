@@ -4,51 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e74681672b307ff9",
+        "id": "86fec6de36f55b14",
         "type": "tabs",
         "children": [
           {
-            "id": "e1c61fcfd6f5773a",
+            "id": "47a2bd3a19a56f74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "IRC/Channel/Channel.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260116150500.png"
               },
-              "icon": "lucide-file",
-              "title": "Channel"
-            }
-          },
-          {
-            "id": "48bd839648984bc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IRC/Func/bind.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bind"
-            }
-          },
-          {
-            "id": "95131fe22c21221c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260116150500"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200.5
   },
   "right": {
     "id": "2647c4fff96c3f0c",
@@ -208,14 +179,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "95131fe22c21221c",
+  "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
+    "File descriptor.md",
+    "JavaScript/JavaScript.md",
+    "JavaScript",
+    "().md",
     "CPP/Insertion Operator.md",
     "Cub3d/Vect2 math/Rotation.md",
     "Cub3d/Raycasting.md",
     "ReadMe.md",
     "IRC/Channel/Channel.md",
-    "().md",
     "IRC/irc command/JOIN.md",
     "CPP 02.md",
     "IRC/Channel/Channel behaviour.md",
@@ -236,8 +210,6 @@
     "IRC/Func/listen.md",
     "IRC/Func/bind.md",
     "IRC/Func/getaddrinfo.md",
-    "CPP 06/WIP module 06.md",
-    "IRC/Func/socket.md",
     "IRC/Func",
     "Pasted image 20260116150500.png",
     "IRC",
@@ -247,7 +219,6 @@
     "CPP module 00",
     "Untitled.canvas",
     "Untitled.base",
-    "Excalidraw",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
