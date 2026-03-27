@@ -11,12 +11,17 @@
             "id": "47a2bd3a19a56f74",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Pasted image 20260116150500.png"
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260116150500"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -181,6 +186,8 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Pasted image 20260116150500.png",
     "File descriptor.md",
     "JavaScript/JavaScript.md",
     "JavaScript",
@@ -209,16 +216,13 @@
     "IRC/Func/accept.md",
     "IRC/Func/listen.md",
     "IRC/Func/bind.md",
-    "IRC/Func/getaddrinfo.md",
     "IRC/Func",
-    "Pasted image 20260116150500.png",
     "IRC",
     "CPP 07",
     "CPP 06",
     "CPP module 00/ex00",
     "CPP module 00",
     "Untitled.canvas",
-    "Untitled.base",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
