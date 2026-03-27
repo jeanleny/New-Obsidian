@@ -11,17 +11,14 @@
             "id": "47a2bd3a19a56f74",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Database/Definition.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Definition"
             }
           }
         ]
@@ -186,6 +183,9 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Database/Definition.md",
+    "Database",
     "Untitled.base",
     "Pasted image 20260116150500.png",
     "File descriptor.md",
@@ -215,14 +215,11 @@
     "IRC/Func/epoll_ctl op.md",
     "IRC/Func/accept.md",
     "IRC/Func/listen.md",
-    "IRC/Func/bind.md",
     "IRC/Func",
     "IRC",
     "CPP 07",
     "CPP 06",
     "CPP module 00/ex00",
-    "CPP module 00",
-    "Untitled.canvas",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
