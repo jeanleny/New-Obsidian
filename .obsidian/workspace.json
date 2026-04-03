@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/HTPP/HTTP.md",
+                "file": "WEB/HTPP/Headers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Headers"
             }
           }
         ]
@@ -183,13 +183,20 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
-    "WEB/RoutFull/Untitled.md",
+    "WEB/HTPP/Query Parameters.md",
+    "WEB/HTPP/Request Line.md",
     "WEB/HTPP/HTTP.md",
+    "WEB/HTPP/Body.md",
+    "WEB/HTPP/Headers.md",
+    "Cub3d/Raycasting.md",
+    "Cub3d/DDA.md",
+    "Makefile/Link and compile.md",
+    "WEB/Database/Definition.md",
+    "WEB/Database/Modèle de base de do2nnées informatisées.md",
+    "WEB/RouteFull/Untitled.md",
     "WEB/HTPP",
     "WEB",
-    "WEB/Database/Modèle de base de do2nnées informatisées.md",
-    "WEB/RoutFull",
-    "WEB/Database/Definition.md",
+    "WEB/RouteFull",
     "Untitled.canvas",
     "WEB/Database",
     "Untitled.base",
@@ -200,7 +207,6 @@
     "().md",
     "CPP/Insertion Operator.md",
     "Cub3d/Vect2 math/Rotation.md",
-    "Cub3d/Raycasting.md",
     "ReadMe.md",
     "IRC/Channel/Channel.md",
     "IRC/irc command/JOIN.md",
@@ -211,14 +217,8 @@
     "IRC/Channel/Channel Operators.md",
     "IRC/Channel/Channel Mode flags.md",
     "IRC/IRC Norm.md",
-    "IRC/Multiplexing.md",
-    "IRC/Client managing.md",
     "IRC/Channel",
-    "IRC/Untitled.md",
     "IRC/irc command",
-    "IRC/Func/addrinfo.md",
-    "IRC/Func/epoll.md",
-    "IRC/Func/epoll_ctl op.md",
     "IRC/Func",
     "IRC",
     "Cub3d/img/Pasted image 20251021103656.png",
