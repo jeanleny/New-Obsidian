@@ -15,6 +15,7 @@ So, the physical clock interrupts at every 1 microsecond.
 
 By taking a difference between two clock ticks values (obtained from clock()), you would get how many interrupts that were seen between those two time points.
 
-
+Si le temps renvoyé par clock est de 13000 ClockTicks, cela représente 13 000 microsecondes.
+Donc 0.013000 seconde.
 
 
