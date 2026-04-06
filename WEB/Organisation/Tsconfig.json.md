@@ -33,3 +33,14 @@ Here its a tsconfig.json
   	//"exclude": ["node_modules", "dist"]//which folder to ignore
 }
 ```
+
+The outdir will be like to object folder for .o in makefile.
+Its where the files transpilled in js are set.
+
+The root dir is where all the project start.
+With the include ```
+```json 
+"include": ["src/**/*"]
+```
+this will look to transpille any files that is situated in the src folder.
+

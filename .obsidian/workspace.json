@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "47a2bd3a19a56f74",
+  "active": "0065122cb2c78ab4",
   "lastOpenFiles": [
     "WEB/Organisation/Package.json.md",
     "WEB/Organisation/Tsconfig.json.md",
