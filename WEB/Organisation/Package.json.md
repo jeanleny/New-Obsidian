@@ -11,11 +11,11 @@ The -y flag is for a quick setup with default values.
 Here is a simple Package.json
 ```json
 {
-  "name": "back",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
+  "name": "back", //name
+  "version": "1.0.0", //version
+  "description": "", //any description you want brozeur
+  "main": "index.js", //the main file, the primary entry point located at the root of your project (le pont levis ty a capté)
+  "scripts": { //the aliases you call when typing "npm run 'the script'" 
     "build": "tsc -p tsconfig.json",
     "start": "node object/server/index.js"
   },
