@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ClockTicks.md",
+                "file": "WEB/Organisation/Package.json.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ClockTicks"
+              "title": "Package.json"
             }
           }
         ]
@@ -183,12 +183,14 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
-    "WEB/HTPP/Query Parameters.md",
-    "ClockTicks.md",
-    "WEB/HTPP/Request Line.md",
-    "WEB/HTPP/HTTP.md",
     "WEB/HTPP/Headers.md",
+    "WEB/Organisation/Package.json.md",
+    "WEB/Organisation",
+    "WEB/HTPP/Request Line.md",
+    "WEB/HTPP/Query Parameters.md",
     "WEB/HTPP/Body.md",
+    "ClockTicks.md",
+    "WEB/HTPP/HTTP.md",
     "File descriptor.md",
     "Header.md",
     "Cub3d/Raycasting.md",
@@ -216,11 +218,9 @@
     "IRC/Channel/Channel behaviour.md",
     "Constructor strange behaviour.md",
     "IRC/Channel/Regular channel.md",
-    "IRC/Channel/Channel Operators.md",
     "IRC/Channel",
     "IRC/irc command",
     "IRC/Func",
-    "IRC",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
