@@ -19,17 +19,18 @@ Here is a simple Package.json
     "build": "tsc -p tsconfig.json",
     "start": "node object/server/index.js"
   },
-  "keywords": [],
+  "keywords": [],//Array of strings for npm search description. Comme des tags #web#pêchealamouche
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
+  "type": "module",//the type field degines how Node.js should interpret .js files.
+  "dependencies": { //every dependence added to the project with the specified version
     "better-sqlite3": "^12.8.0",
     "fastify": "^5.8.4",
     "sqlite": "^5.1.1",
     "sqlite3": "^6.0.1"
   },
-  "devDependencies": {
+  "devDependencies": {//This is the dependencies downloaded by devellopers that want to work with your module.
+  //instead of downloading everything you can download these specific dependencies.
     "@types/node": "^25.5.0",
     "typescript": "^6.0.2"
   }
