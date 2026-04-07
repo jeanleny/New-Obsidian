@@ -23,6 +23,8 @@ This function takes three parameters.
 1. The name of the decorator
 2. The value passed in the decorator
 3. The dependency (the actual logic)
+
+This will add the utility function on the fastify instance object as a method.
 ```js
 fastify.register((instance, opts, done) => {
   instance.decorate('util', (a, b) => a + b)
@@ -31,3 +33,5 @@ fastify.register((instance, opts, done) => {
   done()
 })
 ```
+Like registering plugins Decorate functions with the instance scope.
+
