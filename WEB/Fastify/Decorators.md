@@ -20,3 +20,14 @@ Decorators are the elegant way to do this.
 fastify.decorate('util', (a, b) => a + b)
 ```
 This function takes three parameters.
+1. The name of the decorator
+2. The value passed in the decorator
+3. The dependency (the actual logic)
+```js
+fastify.register((instance, opts, done) => {
+  instance.decorate('util', (a, b) => a + b)
+  console.log(instance.util('Nom de merde serieux ', 'Autant lappeler silo a grain, papier peint, range rover d lespace'))
+
+  done()
+})
+```
