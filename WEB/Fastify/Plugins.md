@@ -11,4 +11,6 @@ Then you register it with the register function
 fastify.register(myPlugin, { someOption: 'value' })
 ```
 
-When you register 
+When you register a plugin, Fastify creates a new fastify context.
+Anything declared in this context stays in it. You cant use things delcare in this context, **unless you explicitly expose it** .
+
