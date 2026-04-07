@@ -36,3 +36,4 @@ fastify.register((instance, opts, done) => {
 Like registering plugins Decorate functions with the instance scope.
 
 We can also put whole function return in the dependencies to keep code clean.
+

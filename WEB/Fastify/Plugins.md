@@ -14,3 +14,15 @@ fastify.register(myPlugin, { someOption: 'value' })
 When you register a plugin, Fastify creates a new fastify context.
 Anything declared in this context stays in it. You cant use things delcare in this context, **unless you explicitly expose it** .
 
+You can do this by using the **'fastify-plugin'** wrappers.
+It breaks encapsulation and makes things global.
+```ts
+import Fastify from 'fastify'
+import fp from 'fastify-plugin' //dont forget to install fastify plugin with npm
+
+fastify.register(fp(async (scope) => { //the fp near async wraps the plugins at the root of the fastify instance and makes it global
+  scope.decorate('bla', (str: string) => { 
+    console.log(str)
+  })
+}))
+```
