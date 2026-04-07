@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Fastify/Decorators.md",
+                "file": "WEB/Typescript/Export import.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decorators"
+              "title": "Export import"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
-    "WEB/Fastify/Plugins.md",
     "WEB/Fastify/Decorators.md",
+    "WEB/Typescript/Export import.md",
+    "WEB/Typescript",
+    "WEB/Fastify/Plugins.md",
     "WEB/Fastify/Register.md",
     "WEB/Organisation/Organisation for backend exemple.md",
     "WEB/Fastify",
@@ -218,9 +220,7 @@
     "CPP/Insertion Operator.md",
     "Cub3d/Vect2 math/Rotation.md",
     "ReadMe.md",
-    "IRC/Channel/Channel.md",
     "IRC/Channel",
-    "IRC/irc command",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
