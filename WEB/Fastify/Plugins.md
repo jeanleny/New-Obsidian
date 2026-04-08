@@ -26,3 +26,41 @@ fastify.register(fp(async (scope) => { //the fp near async wraps the plugins at 
   })
 }))
 ```
+
+BUT WAIT,
+Fastify has a type script support but you need to know a few things before.
+Since you have to type everything, you'll need to declare it as a variable that is equal to to the content of the plugin.
+like so :
+```ts
+const linker: FastifyPluginAsync = async (fastify, opts) => {
+	fastify.decorate('bla', (str:string) =>
+	{
+		console.log(str);
+		return (str);
+	})
+}
+```
+The FastifyPluginAsync is the type and is equal to a decorator called bla.
+NOTE : since you typed the argument, the decorator will need to return a variable with the same type.
+
+THERES MORE :
+You declare the type, but the fastify instance doesn't know that your plugins contents are typed and what type they are.
+So you have to specify it.
+```ts
+declare module 'fastify' {
+  interface FastifyInstance {
+    bla: (str: string) => string;
+  }
+}
+```
+The interface will contains each decorators of your program.
+The best use is to create a types.ts where you put all the plugins interfaces.
+But you have to set it in your tsconfig.json, otherwise the typescript won't recognize them.
+```json
+{
+  "compilerOptions": {
+    "...": "existing options"
+  },
+  "include": ["src/**/*", "types/**/*"] //the type folder where to put the types
+}
+```
