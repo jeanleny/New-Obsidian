@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Typescript/Export import.md",
+                "file": "CyberSecurity/Salt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Export import"
+              "title": "Salt"
             }
           }
         ]
@@ -183,13 +183,16 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
+    "CyberSecurity/Hash.md",
+    "CyberSecurity/Salt.md",
+    "WEB/Typescript/Export import.md",
+    "CyberSecurity",
     "WEB/Organisation/Tsconfig.json.md",
     "WEB/Organisation/Package.json.md",
     "WEB/Organisation/Organisation for backend exemple.md",
     "WEB/Fastify/Plugins.md",
     "WEB/Fastify/Decorators.md",
     "WEB/Fastify/Register.md",
-    "WEB/Typescript/Export import.md",
     "WEB/Typescript",
     "WEB/Fastify",
     "WEB/HTPP/Headers.md",
@@ -218,9 +221,6 @@
     "JavaScript",
     "().md",
     "CPP/Insertion Operator.md",
-    "Cub3d/Vect2 math/Rotation.md",
-    "ReadMe.md",
-    "IRC/Channel",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
