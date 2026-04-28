@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker compose.md",
+                "file": "Markup Language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker compose"
+              "title": "Markup Language"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
-    "ClockTicks.md",
+    "Docker/YAML.md",
+    "Markup Language.md",
     "Docker/Docker compose.md",
+    "ClockTicks.md",
     "WEB/Typescript/Export import.md",
     "WEB/RouteFull/Untitled.md",
     "WEB/HTPP/Request Line.md",
@@ -219,8 +221,6 @@
     "WEB/Database",
     "Untitled.base",
     "Pasted image 20260116150500.png",
-    "JavaScript/JavaScript.md",
-    "().md",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
   ]
