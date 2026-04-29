@@ -1,0 +1,1 @@
+A daemon is a program that runs in the background, without being attached to your terminal.
