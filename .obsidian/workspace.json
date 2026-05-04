@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/YAML.md",
+                "file": "Docker/FastCGI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "YAML"
+              "title": "FastCGI"
             }
           }
         ]
@@ -183,6 +183,9 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
+    "Docker/PHP-FPM.md",
+    "Docker/FastCGI.md",
+    "Docker/YAML.md",
     "Docker/TLS SSL.md",
     "Docker/OPEN SSL.md",
     "Docker/Nginx.md",
@@ -192,7 +195,6 @@
     "NetPractice/Lan.md",
     "NetPractice/Netpractice utils.md",
     "NetPractice/TCP-IP.md",
-    "Docker/YAML.md",
     "Markup Language.md",
     "ClockTicks.md",
     "WEB/Typescript/Export import.md",
@@ -208,9 +210,7 @@
     "WEB/Database/Definition.md",
     "CyberSecurity/Hash.md",
     "Docker",
-    "CyberSecurity/Salt.md",
     "CyberSecurity",
-    "WEB/Organisation/Tsconfig.json.md",
     "WEB/Typescript",
     "WEB/Fastify",
     "WEB/Organisation",

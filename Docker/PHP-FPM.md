@@ -1,0 +1,2 @@
+ *[[FastCGI]] Process Manager (gestionnaire de processus FastCGI)*
+ Is a server application interface that does the communication between a web server and PHP which is based on the [[FastCGI]] protocol.
