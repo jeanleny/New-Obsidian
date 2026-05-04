@@ -13,6 +13,7 @@ With it you can
 
 **Depends_on** :
 This attribute is used for compose flow.
+You can control the order of service startup and shutdown, it is useful if services are closely coupled, and the startup sequence impacts the application's functionality.
 If your application needs to access the database and both services are started with docker compose up,
 there is a chance this will fail since the application service might start before the database service and won't find a database able to handle its SQL stateme nts.
 
