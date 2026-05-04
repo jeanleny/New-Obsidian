@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/FastCGI.md",
+                "file": "Docker/PHP-FPM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FastCGI"
+              "title": "PHP-FPM"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "47a2bd3a19a56f74",
   "lastOpenFiles": [
-    "Docker/PHP-FPM.md",
     "Docker/FastCGI.md",
+    "Docker/PHP-FPM.md",
     "Docker/YAML.md",
     "Docker/TLS SSL.md",
     "Docker/OPEN SSL.md",
