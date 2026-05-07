@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Inception docker compose.md",
+                "file": "Docker/Inception-config/Mariadb dockerfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inception docker compose"
+              "title": "Mariadb dockerfile"
             }
           }
         ]
@@ -183,9 +183,11 @@
   },
   "active": "85fcf682bef46713",
   "lastOpenFiles": [
+    "Docker/Inception-config/Inception docker compose.md",
+    "Docker/Inception-config/Mariadb dockerfile.md",
+    "Docker/Inception-config",
     "Docker/Daemon.md",
     "Docker/Docker compose.md",
-    "Docker/Inception docker compose.md",
     "Docker/OPEN SSL.md",
     "Docker/Nginx.md",
     "Docker/PHP-FPM.md",
@@ -208,7 +210,6 @@
     "WEB/HTPP/Headers.md",
     "WEB/HTPP/Body.md",
     "WEB/Fastify/Plugins.md",
-    "WEB/Fastify/Decorators.md",
     "Docker",
     "CyberSecurity",
     "WEB/Typescript",
@@ -219,7 +220,6 @@
     "WEB/RouteFull",
     "Untitled.canvas",
     "WEB/Database",
-    "Untitled.base",
     "Pasted image 20260116150500.png",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
