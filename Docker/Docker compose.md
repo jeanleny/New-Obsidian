@@ -18,3 +18,4 @@ If your application needs to access the database and both services are started w
 there is a chance this will fail since the application service might start before the database service and won't find a database able to handle its SQL stateme nts.
 
 
+
