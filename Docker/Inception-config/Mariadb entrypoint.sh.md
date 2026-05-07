@@ -33,3 +33,10 @@ fi
 	exec "$@"
 ```
 
+``set -e
+Stops the scripts immediately if any cmd fails
+
+``mkdir -p /run/mysqld
+create the directory where MariaDB puts its socket file
+-p means: no error if it already exists, create parent dirs too 
+this directory doesn't exist by default in debian:bookworm
