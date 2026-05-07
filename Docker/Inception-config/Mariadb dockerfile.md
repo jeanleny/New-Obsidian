@@ -18,6 +18,5 @@ EXPOSE 3306 is to open his port at this specifically
 `mysqld --user=mysql --bind-address=0.0.0.0
 
 Is the command that start mariadb after it up.
-The --user flag  i mandatory to access the db and the --bind is to bind every the connection to every adress.
-
+The --user flag  i mandatory to access the db and the --bind is to accept connection from every incoming IP adress.
 
