@@ -67,4 +67,32 @@ The port number within the container that's listening for connections.
 
 **build** : Build the image from the dockerfile in the repo.
 
+**image** : sets the image if it exist in local, pull one existing otherwise
 
+**container_name** : Gives a nam to the container
+
+**volumes** : the volumes to set:where to set it in the container
+
+**Depends_on** :
+This attribute is used for compose flow.
+You can control the order of service startup and shutdown, it is useful if services are closely coupled, and the startup sequence impacts the application's functionality.
+If your application needs to access the database and both services are started with docker compose up,
+there is a chance this will fail since the application service might start before the database service and won't find a database able to handle its SQL stateme nts.
+
+**networks** : The networks used by the container, in this case the inception network that is connected with everycontainer.
+
+**env_files** : the environment file.
+
+
+
+*Volumes part* : 
+the name
+**driver** : The driver that should be used, in this case local are the local folder.
+**driver_opts** : specifies a list of options as key-value to pass thhe driver for this volume. 
+-  type is not necesary in this case
+-  o is for options, in this case bind.
+-  device which is the actual host path.
+
+*Network part* : 
+the name
+**driver** : the type of connection used.
