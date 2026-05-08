@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Inception-config/Nginx config.md",
+                "file": "Docker/Inception-config/wordpress entrypoint.sh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx config"
+              "title": "wordpress entrypoint.sh"
             }
           }
         ]
@@ -183,10 +183,12 @@
   },
   "active": "85fcf682bef46713",
   "lastOpenFiles": [
-    "Docker/Inception-config/Inception docker compose.md",
-    "Docker/Inception-config/Mariadb dockerfile.md",
-    "Docker/Inception-config/Mariadb entrypoint.sh.md",
+    "Docker/Inception-config/wordpress dockerfile.md",
+    "Docker/Inception-config/wordpress entrypoint.sh.md",
     "Docker/Inception-config/Nginx config.md",
+    "Docker/Inception-config/Mariadb entrypoint.sh.md",
+    "Docker/Inception-config/Mariadb dockerfile.md",
+    "Docker/Inception-config/Inception docker compose.md",
     "Docker/FastCGI.md",
     "Docker/TLS SSL.md",
     "Docker/OPEN SSL.md",
@@ -208,8 +210,6 @@
     "WEB/RouteFull/Untitled.md",
     "WEB/HTPP/Request Line.md",
     "WEB/HTPP/Query Parameters.md",
-    "WEB/HTPP/HTTP.md",
-    "WEB/HTPP/Headers.md",
     "Docker",
     "CyberSecurity",
     "WEB/Typescript",
