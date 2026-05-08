@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Inception-config/Mariadb entrypoint.sh.md",
+                "file": "Docker/Inception-config/Nginx config.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mariadb entrypoint.sh"
+              "title": "Nginx config"
             }
           }
         ]
@@ -183,23 +183,24 @@
   },
   "active": "85fcf682bef46713",
   "lastOpenFiles": [
-    "Docker/FastCGI.md",
-    "Docker/Inception-config/Mariadb entrypoint.sh.md",
-    "Docker/Inception-config/Mariadb dockerfile.md",
     "Docker/Inception-config/Inception docker compose.md",
-    "Docker/Inception-config",
+    "Docker/Inception-config/Mariadb dockerfile.md",
+    "Docker/Inception-config/Mariadb entrypoint.sh.md",
+    "Docker/Inception-config/Nginx config.md",
+    "Docker/FastCGI.md",
+    "Docker/TLS SSL.md",
+    "Docker/OPEN SSL.md",
+    "Docker/PHP-FPM.md",
     "Docker/Daemon.md",
     "Docker/Docker compose.md",
-    "Docker/OPEN SSL.md",
     "Docker/Nginx.md",
-    "Docker/PHP-FPM.md",
+    "Docker/Inception-config",
     "NetPractice/TCP-IP.md",
     "NetPractice/Table de routage.md",
     "NetPractice/Lan.md",
     "NetPractice/Netpractice utils.md",
     "Cub3d/Vect2 math/Rotation.md",
     "Docker/YAML.md",
-    "Docker/TLS SSL.md",
     "RSA.md",
     "Markup Language.md",
     "ClockTicks.md",
@@ -209,7 +210,6 @@
     "WEB/HTPP/Query Parameters.md",
     "WEB/HTPP/HTTP.md",
     "WEB/HTPP/Headers.md",
-    "WEB/HTPP/Body.md",
     "Docker",
     "CyberSecurity",
     "WEB/Typescript",
