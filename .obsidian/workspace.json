@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IRC/Untitled.md",
+                "file": "WEB/Go/Import libs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Import libs"
             }
           }
         ],
@@ -196,8 +196,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4c3311e18a02d70f",
+  "active": "22f15186a7258881",
   "lastOpenFiles": [
+    "WEB/Go/Init Project and go.mod.md",
+    "WEB/Go/Import libs.md",
+    "WEB/Go/Go Conventions.md",
+    "IRC/Func/accept.md",
+    "IRC/Client managing.md",
+    "IRC/IRC Norm.md",
     "IRC/Multiplexing.md",
     "IRC/Untitled.md",
     "IRC/Socket.md",
@@ -207,13 +213,10 @@
     "IRC/Func/connect.md",
     "IRC/Func/bind.md",
     "IRC/Func/addrinfo.md",
-    "IRC/Func/accept.md",
     "IRC/Func/socket.md",
     "IRC/Func/listen.md",
     "IRC/Func/getaddrinfo.md",
     "NixShell.md",
-    "WEB/Go/Init Project and go.mod.md",
-    "WEB/Go/Go Conventions.md",
     "ReadMe.md",
     "Pasted image 20260116150500.png",
     "Markup Language.md",
@@ -222,9 +225,6 @@
     "ClockTicks.md",
     "WEB/RouteFull/Untitled.md",
     "WEB/Typescript/Export import.md",
-    "WEB/Organisation/Tsconfig.json.md",
-    "WEB/Organisation/Package.json.md",
-    "WEB/Organisation/Organisation for backend exemple.md",
     "WEB/Go",
     "Docker/Inception-config",
     "Docker",
