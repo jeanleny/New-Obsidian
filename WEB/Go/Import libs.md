@@ -15,3 +15,6 @@ func main (){
 	tea.BackgroundColorMsg(stuff);
 }
 ```
+
+Dont forget
+Struct, func, variable and every exported stuff must be written with a **MAJ**.
