@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Go/Go DATABASE/Golang-Migrate.md",
+                "file": "WEB/Go/Go DATABASE/pg_dump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Golang-Migrate"
+              "title": "pg_dump"
             }
           }
         ]
@@ -181,14 +181,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0065122cb2c78ab4",
+  "active": "37bcc35a24f70361",
   "lastOpenFiles": [
+    "WEB/Go/Go DATABASE/POSTGRES.md",
+    "WEB/Go/Go DATABASE/pg_dump.md",
+    "WEB/Go/Go DATABASE/Golang-Migrate.md",
     "WEB/Database/database Migrations.md",
+    "IRC/IRC Norm.md",
     "WEB/Database/DSN.md",
     "Docker/TLS SSL.md",
     "WEB/Fastify/Plugins.md",
     "Data encapsulation.md",
-    "WEB/Go/Go DATABASE/Golang-Migrate.md",
     "UDP.md",
     "database migration.md",
     "2026-07-17.md",
@@ -198,7 +201,6 @@
     "Docker/Docker compose.md",
     "Markup Language.md",
     "Untitled.base",
-    "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go Conventions.md",
     "WEB/Go/Go DATABASE",
     "WEB/Go/Init Project and go.mod.md",
@@ -209,8 +211,6 @@
     "NetPractice/TCP-IP.md",
     "NetPractice/Table de routage.md",
     "NetPractice/Netpractice utils.md",
-    "NetPractice/Lan.md",
-    "ClockTicks.md",
     "WEB/Typescript",
     "WEB/RouteFull",
     "WEB/Organisation",

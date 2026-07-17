@@ -1,5 +1,7 @@
-A database **migration** is version of a database.
-It's most of the time a SQL file containing the database table and organisation.
+A database **migration** is the modification of a database.
+It's most of the time a SQL file containing the last modifications.
+It does not contains the whole db schema, just the sequences of changes.
+
 
 Imagine, you have this Database .sql file :
 ```SQL
