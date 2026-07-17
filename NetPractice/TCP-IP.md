@@ -8,6 +8,8 @@ it stands in a list of rules/standards wich are divided into layers
 - The internet layer manages the adressing and routing
 - The physical layer wich is the physical transmission of data (cables).
 
+Basically, the TCP control protocol divide data by PACKETS and assure the communication by setting them in same order they arrived.
+
 Every device on network has his specific and unique IP.
 It helps identify and locate devices on [[Lan]] and allows them to communicate with each other.
  We're using most of the time the IPv4 model.

@@ -1,0 +1,1 @@
+If a client is trying to join a channel where he is already present, nothings happen

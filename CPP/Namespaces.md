@@ -1,4 +1,7 @@
 Namespace are groups of values that are used to organize code into logical groups avoiding name collision.
+
+NameSpace are just access to other object.
+
 ```c++
 int i = 4;
 int f(void)
