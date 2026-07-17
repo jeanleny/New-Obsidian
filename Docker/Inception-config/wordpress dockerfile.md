@@ -1,0 +1,55 @@
+```dockerfile
+FROM debian:bookworm
+
+# Install everything WordPress + PHP-FPM needs
+# php8.2-fpm        → the PHP-FPM process manager itself
+# php8.2-mysql      → lets PHP talk to MySQL/MariaDB databases
+# php8.2-curl       → WordPress uses curl to check for updates, call APIs
+# curl              → needed to download WP-CLI
+RUN apt-get update && apt-get install -y \
+    php8.2-fpm \
+    php8.2-mysql \
+    php8.2-curl \
+    netcat-openbsd \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
+    && chmod +x wp-cli.phar \
+    && mv wp-cli.phar /usr/local/bin/wp
+
+RUN mkdir -p /var/www/html
+
+COPY www.conf /etc/php/8.2/fpm/pool.d/www.conf
+
+COPY entrypoint.sh /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
+EXPOSE 9000
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+CMD ["php-fpm8.2", "-F"]
+```
+
+php8.2-fpm        → the PHP-FPM process manager itself
+php8.2-mysql      → lets PHP talk to MySQL/MariaDB databases
+php8.2-curl       → WordPress uses curl to check for updates, call APIs
+curl              → needed to download WP-CLI
+
+**The WP-CLI installation**
+This stands for WordPress Command Line Interface.
+
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
+    && chmod +x wp-cli.phar \
+    && mv wp-cli.phar /usr/local/bin/wp
+
+This downloads the wp-cli.phar makes it executable and moves it where wp can reach it.
+
+A PHAR is a packaged PHP application.
+
+**Copy PHP-FPM config** : this replaces the default wordpress config by our own copied before from our local device.
+
+**CMD "php-fpm8.2", "-F"** this launches the php_fpm fastcgi app. THe -F means run it in foreground so the container doesnt exits.
+
