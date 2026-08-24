@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Go/Go DATABASE/pg_dump.md",
+                "file": "WEB/Go/Go DATABASE/Golang-Migrate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pg_dump"
+              "title": "Golang-Migrate"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorateur de fichiers"
@@ -177,16 +179,29 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Créer une nouvelle base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "37bcc35a24f70361",
   "lastOpenFiles": [
+    "Docker/Docker compose.md",
+    "Docker/Inception-config/wordpress dockerfile.md",
+    "Docker/Inception-config/Nginx config.md",
+    "Docker/Inception-config/Mariadb entrypoint.sh.md",
+    "Docker/Inception-config/Mariadb dockerfile.md",
+    "Docker/Inception-config/Inception docker compose.md",
+    "WEB/Go/Go DATABASE/Golang-Migrate.md",
+    "WEB/Go/Init Project and go.mod.md",
+    "WEB/Go/Import libs.md",
+    "WEB/Go/Go Conventions.md",
     "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go DATABASE/pg_dump.md",
-    "WEB/Go/Go DATABASE/Golang-Migrate.md",
     "WEB/Database/database Migrations.md",
+    "Docker/Nginx.md",
+    "Docker/FastCGI.md",
+    "Docker/Daemon.md",
+    "Docker/Inception-config/wordpress entrypoint.sh.md",
     "IRC/IRC Norm.md",
     "WEB/Database/DSN.md",
     "Docker/TLS SSL.md",
@@ -195,22 +210,9 @@
     "UDP.md",
     "database migration.md",
     "2026-07-17.md",
-    "Docker/FastCGI.md",
     "Docker/OPEN SSL.md",
-    "Docker/Nginx.md",
-    "Docker/Docker compose.md",
-    "Markup Language.md",
     "Untitled.base",
-    "WEB/Go/Go Conventions.md",
     "WEB/Go/Go DATABASE",
-    "WEB/Go/Init Project and go.mod.md",
-    "WEB/Go/Import libs.md",
-    "WEB/Fastify/Decorators.md",
-    "WEB/Database/Modèle de base de données informatisées.md",
-    "WEB/Database/Definition.md",
-    "NetPractice/TCP-IP.md",
-    "NetPractice/Table de routage.md",
-    "NetPractice/Netpractice utils.md",
     "WEB/Typescript",
     "WEB/RouteFull",
     "WEB/Organisation",

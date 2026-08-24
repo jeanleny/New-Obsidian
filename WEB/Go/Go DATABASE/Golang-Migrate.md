@@ -22,7 +22,7 @@ This does not modify the DB, it only creates empty files.
 #### 3. Apply to the db
 ```bash
 migrate -database "postgres://clicker:clicker@localhost:5432/clicker?sslmode=disable" \
-        -path migrations up
+	        -path migrations up
 ```
 To apply it, you need
 - connection string, what we call the [[DSN]] (data source name) via the tag `-database`.
