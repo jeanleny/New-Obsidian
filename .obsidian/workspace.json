@@ -34,21 +34,9 @@
               "icon": "lucide-file",
               "title": "Import libs"
             }
-          },
-          {
-            "id": "3eafc9bdcf43f008",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,45 +198,47 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3eafc9bdcf43f008",
+  "active": "22f15186a7258881",
   "lastOpenFiles": [
+    "Bouquet liste.md",
+    "WEB/Go/Import libs.md",
+    "conflict-files-obsidian-git.md",
+    "database migration.md",
+    "WEB/Go/Go DATABASE/pg_dump.md",
+    "WEB/Go/Go DATABASE/POSTGRES.md",
+    "WEB/Go/Go DATABASE/Golang-Migrate.md",
+    "WEB/Go/Go DATABASE",
+    "WEB/Database/database Migrations.md",
+    "WEB/Database/Modèle de base de données informatisées.md",
+    "WEB/Database/DSN.md",
+    "Makefile/Cub3d/img/Pasted image 20251021103656.png",
+    "Makefile/Cub3d/img/Pasted image 20251021102528.png",
+    "Makefile/Cub3d/Vect2 math/Rotation.md",
+    "Makefile/Cub3d/img",
+    "Makefile/Cub3d/Vect2 math",
+    "Makefile/Cub3d/Raycasting.md",
+    "Makefile/Cub3d/Raycasting Rendering.md",
+    "Makefile/Cub3d/DDA.md",
+    "Makefile/Cub3d",
+    "IRC/Untitled.md",
+    "2026-07-17.md",
     "WEB/Go/Init Project and go.mod.md",
     "WEB/Go/Go Conventions.md",
-    "WEB/Go/Import libs.md",
     "CPP module 00/ex00/Megaphone.md",
     "IRC/Func/accept.md",
     "IRC/Client managing.md",
     "IRC/IRC Norm.md",
     "IRC/Multiplexing.md",
-    "IRC/Untitled.md",
     "IRC/Socket.md",
     "IRC/Server creation.md",
     "IRC/Func/epoll_ctl op.md",
-    "IRC/Func/epoll.md",
-    "IRC/Func/connect.md",
-    "IRC/Func/bind.md",
-    "IRC/Func/addrinfo.md",
-    "IRC/Func/socket.md",
-    "IRC/Func/listen.md",
-    "IRC/Func/getaddrinfo.md",
-    "NixShell.md",
-    "ReadMe.md",
     "Pasted image 20260116150500.png",
-    "Markup Language.md",
-    "File descriptor.md",
-    "Data encapsulation.md",
-    "ClockTicks.md",
-    "WEB/RouteFull/Untitled.md",
     "WEB/Go",
     "Docker/Inception-config",
     "Docker",
     "CyberSecurity",
     "WEB/Typescript",
     "WEB/Fastify",
-    "WEB/Organisation",
-    "WEB/HTPP",
-    "WEB",
-    "WEB/RouteFull",
     "Untitled.canvas",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
