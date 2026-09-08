@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI CD/Pipeline CI-CD.md",
+                "file": "CI CD/CI, Delivery, Deployment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pipeline CI-CD"
+              "title": "CI, Delivery, Deployment"
             }
           }
         ],
@@ -200,8 +200,11 @@
   },
   "active": "068cca876016de22",
   "lastOpenFiles": [
+    "Pasted image 20260908161035.png",
+    "Pasted image 20260908155915.png",
+    "CI CD/Kesako CI-CD.md",
+    "CI CD/CI, Delivery, Deployment.md",
     "Pasted image 20260908132052.png",
-    "CI CD/Pipeline CI-CD.md",
     "Pasted image 20260908131148.png",
     "Untitled.md",
     "Pasted image 20260908112255.png",
@@ -241,7 +244,6 @@
     "Makefile/Cub3d",
     "IRC/Untitled.md",
     "2026-07-17.md",
-    "WEB/Go/Init Project and go.mod.md",
     "WEB/Go",
     "Cub3d/img/Pasted image 20251021103656.png",
     "Cub3d/img/Pasted image 20251021102528.png"
