@@ -83,3 +83,60 @@ L'artefact est caractérisé par plusieurs choses :
 ###### Environnements de déploiement 
 Un environnement représente une **cible** de déploiement.
 La *dev, la staging, la prod,* tout ça sont des sortes d'étapes dans le développement.
+
+Il y a des règles de protectoin en fonction des environnement :
+- **Approbation** : Un humain doit valider avant déploiement (Pull request)
+- **Délai** : Certains problèmes se remarquent plus tard, permet d'annuler en cas d'erreur
+- **Plages horaires** : Pas de déploiement en fin de semaine, ou a des moments cruciaux ou les problèmes ne peuvent être réglés.
+- **Branches autorisées**, seul la *main* peut déployer en prod.
+
+Chaque environnement a ses propres crédentials :
+- La DB et les clés API en staging/test ne sont pas les même qu'en prod.
+- Tokens avec permissions réduites en dev
+
+La **séparation des secrets** réduit l'impact d'une fuite
+
+###### Logs et observabilité
+
+Un job bien loggé permet de comprendre ce qui s'est passé sans relancer la pipeline pour comprendre ce qui est cassé.
+- Les **commandes exécutées et leurs output complet**
+- Les **timestamps**
+- Les **Variables d'environnement** hors secret
+- Les **versions** des outils/dépendances et images utilisés
+
+Il y a aussi des métriques essentielles de la pipeline:
+- La **durée moyenne** de la pipeline
+- **Taux de succès**
+- Les **tests flaky** : tests qui echouent de façon aléatoire
+- **Queue time**, le temps d'attente avant qu'un runner soit disponible
+
+Les alertes recommandés :
+- La durée de la pipeline dépasse X minutes (régression de performances)
+- Le taux de succès qui chute (problème systémique)
+- Les jobs spécifiques qui échouent plus de X fois
+
+Une pipeline repose sur trois garanties fondamentales.
+Si l'une manque, c'est un script qui s'execute mais pas une vraie pipeline.
+
+#### Reproductibilité Traçabilité Observabilité
+
+1. **Reproductibilité**
+	Le même commit doit produire le même artefact, peu importe quand et ou vous l'exécutez.
+	Si la pipeline donne des résultats différents a chaque exécution, elle perd toute valeur.
+	Plusieurs façon de garder une bonne reproductibilité
+	- épingler les dépendances
+	- Utiliser des images Docker avec des tag fixe (pas latest)
+	- Isoler les tests (ne doivent pas dépendre des uns des autres) Si un test dépend d'un autre test il est compliqué de retrouver la cause du problème.
+2. **Traçabilité**
+	Quand un bug apparaît en production, on doit pouvoir répondre a :
+	- Quel commit
+	- Quelle pipeline
+	- Quels tests
+	- Qui a déclenché le deploiement.(pas sur de ça)
+	Ce qui garantit la traçabilité :
+	- Les artefacts sont taggés avec le SHA du commit
+	- Chaque déploiement conserve un lien vers la pipeline d'origine
+	- Chaque job expose ses logs complets 
+3. **Observabilité**
+	Une pipeline doit exposer son état de santé en temps réel avec des métriques claires et explicites.
+	 
