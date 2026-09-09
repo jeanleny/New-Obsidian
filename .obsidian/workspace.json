@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,6 +201,7 @@
   },
   "active": "068cca876016de22",
   "lastOpenFiles": [
+    "Pasted image 20260909095839.png",
     "Pasted image 20260908161035.png",
     "Pasted image 20260908155915.png",
     "CI CD/Kesako CI-CD.md",
@@ -245,7 +247,6 @@
     "IRC/Untitled.md",
     "2026-07-17.md",
     "WEB/Go",
-    "Cub3d/img/Pasted image 20251021103656.png",
-    "Cub3d/img/Pasted image 20251021102528.png"
+    "Cub3d/img/Pasted image 20251021103656.png"
   ]
 }
