@@ -52,12 +52,14 @@
             "id": "f1e416775bb1ce1d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260909095839.png"
+                "file": "CI CD/GithubAction/Premier Workflow Action.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260909095839"
+              "icon": "lucide-file",
+              "title": "Premier Workflow Action"
             }
           }
         ],
@@ -223,8 +225,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4c3311e18a02d70f",
+  "active": "f1e416775bb1ce1d",
   "lastOpenFiles": [
+    "CI CD/Architecture projet.md",
+    "CI CD/GithubAction/Premier Workflow Action.md",
+    "CI CD/CI, Delivery, Deployment.md",
+    "Pasted image 20260909095839.png",
     "Pasted image 20260908161035.png",
     "Pasted image 20260908155915.png",
     "Pasted image 20260908132052.png",
@@ -245,11 +251,7 @@
     "Pasted image 20260909140256.png",
     "CI CD/Untitled.md",
     "CI CD/GithubAction",
-    "CI CD/Architecture projet.md",
-    "Pasted image 20260909103115.png",
     "CI CD/Kesako CI-CD.md",
-    "CI CD/CI, Delivery, Deployment.md",
-    "Pasted image 20260909095839.png",
     "CI CD",
     "NixShell.md",
     "Untitled.canvas",
