@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI CD/CI, Delivery, Deployment.md",
-                "mode": "source",
+                "file": "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CI, Delivery, Deployment"
+              "title": "Reflexe de Sécurité -  GithubAction"
             }
           }
         ],
@@ -91,8 +91,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,18 +200,26 @@
   },
   "active": "068cca876016de22",
   "lastOpenFiles": [
+    "CI CD/GithubAction/Kesako.md",
+    "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
+    "Pasted image 20260909144112.png",
+    "Pasted image 20260909141301.png",
+    "Pasted image 20260909140256.png",
+    "CI CD/Untitled.md",
+    "CI CD/GithubAction",
+    "CI CD/Architecture projet.md",
+    "Pasted image 20260909103115.png",
+    "Untitled 1.md",
+    "CI CD/Kesako CI-CD.md",
+    "CI CD/CI, Delivery, Deployment.md",
     "Pasted image 20260909095839.png",
     "Pasted image 20260908161035.png",
     "Pasted image 20260908155915.png",
-    "CI CD/Kesako CI-CD.md",
-    "CI CD/CI, Delivery, Deployment.md",
     "Pasted image 20260908132052.png",
     "Pasted image 20260908131148.png",
     "Untitled.md",
     "Pasted image 20260908112255.png",
-    "anatomie-pipeline.DK4EQIxj_Z2hM3xt.svg",
     "CI CD",
-    "Pasted image 20260116150500.png",
     "NixShell.md",
     "RSA.md",
     "UDP.md",
@@ -235,18 +242,10 @@
     "WEB/Database/database Migrations.md",
     "WEB/Database/Modèle de base de données informatisées.md",
     "WEB/Database/DSN.md",
-    "Makefile/Cub3d/img/Pasted image 20251021103656.png",
-    "Makefile/Cub3d/img/Pasted image 20251021102528.png",
     "Makefile/Cub3d/Vect2 math/Rotation.md",
     "Makefile/Cub3d/img",
     "Makefile/Cub3d/Vect2 math",
     "Makefile/Cub3d/Raycasting.md",
-    "Makefile/Cub3d/Raycasting Rendering.md",
-    "Makefile/Cub3d/DDA.md",
-    "Makefile/Cub3d",
-    "IRC/Untitled.md",
-    "2026-07-17.md",
-    "WEB/Go",
-    "Cub3d/img/Pasted image 20251021103656.png"
+    "Makefile/Cub3d"
   ]
 }
