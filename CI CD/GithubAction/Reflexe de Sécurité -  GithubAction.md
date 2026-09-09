@@ -15,3 +15,12 @@ Dès votre premier workflow, adoptez ces pratiques :
 permissions:
 	content: read #lecture seule sur le code
 ```
+
+3. Ne jamais afficher de secrets dans les logs
+```YAML
+# ❌ CATASTROPHE : le secret apparaît dans les logs
+- run: echo "Token: ${{ secrets.API_TOKEN }}"
+
+# ✅ Les secrets sont masqués automatiquement si utilisés correctement
+- run: curl -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" https://api.example.com
+```

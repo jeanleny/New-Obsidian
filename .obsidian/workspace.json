@@ -34,9 +34,34 @@
               "icon": "lucide-file",
               "title": "Reflexe de Sécurité -  GithubAction"
             }
+          },
+          {
+            "id": "4450390a5ca4fdf4",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled 1.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "f1e416775bb1ce1d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260909095839.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260909095839"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -198,10 +223,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "068cca876016de22",
+  "active": "4c3311e18a02d70f",
   "lastOpenFiles": [
-    "CI CD/GithubAction/Kesako.md",
+    "Pasted image 20260908161035.png",
+    "Pasted image 20260908155915.png",
+    "Pasted image 20260908132052.png",
+    "Pasted image 20260908131148.png",
+    "Pasted image 20260908112255.png",
+    "Pasted image 20260116150500.png",
+    "RSA.md",
+    "UDP.md",
+    "Untitled 1.base",
+    "Untitled.md",
+    "Untitled 2.base",
+    "Untitled 2.md",
+    "Untitled 1.md",
     "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
+    "CI CD/GithubAction/Kesako.md",
     "Pasted image 20260909144112.png",
     "Pasted image 20260909141301.png",
     "Pasted image 20260909140256.png",
@@ -209,22 +247,11 @@
     "CI CD/GithubAction",
     "CI CD/Architecture projet.md",
     "Pasted image 20260909103115.png",
-    "Untitled 1.md",
     "CI CD/Kesako CI-CD.md",
     "CI CD/CI, Delivery, Deployment.md",
     "Pasted image 20260909095839.png",
-    "Pasted image 20260908161035.png",
-    "Pasted image 20260908155915.png",
-    "Pasted image 20260908132052.png",
-    "Pasted image 20260908131148.png",
-    "Untitled.md",
-    "Pasted image 20260908112255.png",
     "CI CD",
     "NixShell.md",
-    "RSA.md",
-    "UDP.md",
-    "Untitled 2.base",
-    "Untitled 1.base",
     "Untitled.canvas",
     "Untitled.base",
     "Bouquet liste.md",
@@ -242,10 +269,8 @@
     "WEB/Database/database Migrations.md",
     "WEB/Database/Modèle de base de données informatisées.md",
     "WEB/Database/DSN.md",
-    "Makefile/Cub3d/Vect2 math/Rotation.md",
     "Makefile/Cub3d/img",
     "Makefile/Cub3d/Vect2 math",
-    "Makefile/Cub3d/Raycasting.md",
     "Makefile/Cub3d"
   ]
 }
