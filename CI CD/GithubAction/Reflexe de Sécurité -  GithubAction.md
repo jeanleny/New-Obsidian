@@ -75,4 +75,12 @@ Le mieux est d'utiliser les actions de sources fiable (Github, grandes entrepris
 3. Le code des pulls request
 	**Qu'est-ce qu'une pull request (PR) ?** Une PR, c'est une proposition de modification du code. Sur un projet open source, n'importe qui peut forker le repo (en faire une copie), modifier le code, puis proposer ses changements via une PR.
 
-	**Pourquoi c'est un vecteur d'attaque ?** Par défaut, quand quelqu'un ouvre une PR, les workflows du repo s'exécutent pour tester le code proposé. Un attaquant peut donc :
+	**Pourquoi c'est un vecteur d'attaque ?** Par défaut, quand quelqu'un ouvre une PR, les workflows du repo s'exécutent pour tester le code proposé. Un attaquant peut donc modifer le workflow et envoyer les secrets quelque part.
+	Ouvir une PR vers notre repo et récuperer les secrets quand le workflow s'exécute.
+
+![[Pasted image 20260910114034.png]]**La bonne nouvelle** : GitHub a prévu le coup. Par défaut, les workflows déclenchés par des PRs venant de forks n'ont **pas accès aux secrets**. L'attaquant peut modifier le workflow, mais il ne récupérera rien.
+PAR CONTRE il ne faut surtout pas désactiver cette protection et se mefier de la `pull_request_target` qui contourne cette sécurité.
+
+ATTENTION AUX TYPOSQUATTING
+C'est une pratique qui consiste a utiliser les fautes de frappes pour créer une action avec un nom très proche d'une action populaire.
+Vérifiez **toujours** l'orthographe exacte du nom de l'action ou du package. Une lettre de différence peut vous faire exécuter du code malveillant.
