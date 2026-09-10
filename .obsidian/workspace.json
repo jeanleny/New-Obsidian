@@ -54,12 +54,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI CD/GithubAction/Premier Workflow Action.md",
-                "mode": "preview",
+                "file": "CI CD/GithubAction/Anatomie d'un workflow.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Premier Workflow Action"
+              "title": "Anatomie d'un workflow"
             }
           }
         ],
@@ -235,7 +235,7 @@
     "WEB/Go/Import libs.md",
     "WEB/Go/Go Conventions.md",
     "Markup Language.md",
-    "CI CD/GithubAction/Premier Workflow Action.md",
+    "CI CD/GithubAction/Anatomie d'un workflow.md",
     "CI CD/Architecture projet.md",
     "CI CD/CI, Delivery, Deployment.md",
     "Pasted image 20260909095839.png",

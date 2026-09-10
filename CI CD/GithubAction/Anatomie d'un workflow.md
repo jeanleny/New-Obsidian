@@ -36,8 +36,4 @@ Ce workflow :
 - Utilise des SHA au lieu de tags pour les actions
 - Fait exactement ce qu'il doit faire : tester le code
 
-###### Jobs vs Steps
-Un **job** s'exécute sur une machine virtuelle dédiée. Plusieurs jobs peuvent tourner en parallèle sur des machines différentes.
-
-Les **steps** d'un même job s'exécutent séquentiellement sur la même machine. Ils partagent le même système de fichiers.
-
+##
