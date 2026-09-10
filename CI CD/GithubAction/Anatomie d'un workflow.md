@@ -36,4 +36,60 @@ Ce workflow :
 - Utilise des SHA au lieu de tags pour les actions
 - Fait exactement ce qu'il doit faire : tester le code
 
-##
+**Runs on** : La machine virtuelle utilisée pour exécuter le workflow.
+IMPORTANT : Toujours mettre un tag de version fixe pour éviter les mauvaises surprise en cas d'update d'un `latest`
+
+###### Le nom
+```yaml
+name: Tests unitaires
+```
+C'est le nom qui apparaît dans l'interface Github, dans l'onglet "Actions".
+Il est important de bien choisir son nom pour s'y retrouver quand on en a plusieurs.
+
+###### Le declencheur (trigger)
+```yaml
+on:
+  push:
+    branches: [main]
+```
+Le déclencheur définit quand le workflow s'éxecute.
+
+###### Les jobs
+```yaml
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: npm test
+```
+Les jobs definissent ce que fait le workflow.
+Un job est un **ensemble de tâches (steps)** qui s'éxecutent sur une même machine.
+
+Un job est une unité de travail **indépendante**.
+Chaque job :
+- S'exécute sur sa propre machine virtuelle (appelée **runner**)
+- Peut contenir plusieurs étapes (**steps**)
+- Peut contenir d'autre jobs ou s'exécuter en parallèle
+
+***Executer des jobs dans un ordre précis*** (**needs**)
+
+A la manière du depends on de docker compose, un workflow peut s'exécuter dans un ordre précis avec le mot clé needs qui définit quels jobs a besoin d'être terminé avant de se lancer.
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "Build"
+
+  test:
+    runs-on: ubuntu-24.04
+    needs: build            # Attend que "build" soit terminé
+    steps:
+      - run: echo "Test"
+
+  deploy:
+    runs-on: ubuntu-24.04
+    needs: [build, test]    # Attend que les deux soient terminés
+    steps:
+      - run: echo "Deploy"
+```
