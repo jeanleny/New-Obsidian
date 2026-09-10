@@ -59,4 +59,20 @@ Exemple :
 ```
 
 2. Les actions tierces non vérifiées
-	Une action github est un bout de code réutilisable que que quelqu'un a publié. Au lieu de réecrire la logique pour "checkout le code""
+	Une action github est un bout de code réutilisable que que quelqu'un a publié. 
+	C'est très pratique mais risqué, le code exécuté a accès a tout le workflow du projet.
+```yaml
+# ⚠️ Questions à se poser :
+# - Qui est "random-user" ? Une entreprise ? Un particulier ?
+# - Que fait vraiment cette action ? Ai-je lu le code ?
+# - Est-elle maintenue ? Dernière mise à jour il y a 3 ans ?
+- uses: random-user/deploy-magic@v1
+  with:
+    token: ${{ secrets.DEPLOY_KEY }}  # On lui donne nos clés !
+```
+Le mieux est d'utiliser les actions de sources fiable (Github, grandes entreprises, projets populaires).
+
+3. Le code des pulls request
+	**Qu'est-ce qu'une pull request (PR) ?** Une PR, c'est une proposition de modification du code. Sur un projet open source, n'importe qui peut forker le repo (en faire une copie), modifier le code, puis proposer ses changements via une PR.
+
+	**Pourquoi c'est un vecteur d'attaque ?** Par défaut, quand quelqu'un ouvre une PR, les workflows du repo s'exécutent pour tester le code proposé. Un attaquant peut donc :

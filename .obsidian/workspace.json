@@ -54,12 +54,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI CD/GithubAction/Anatomie d'un workflow.md",
+                "file": "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anatomie d'un workflow"
+              "title": "Reflexe de Sécurité -  GithubAction"
             }
           }
         ],
@@ -227,11 +227,11 @@
   },
   "active": "f1e416775bb1ce1d",
   "lastOpenFiles": [
+    "CI CD/GithubAction/Anatomie d'un workflow.md",
     "CI CD/GithubAction/Kesako.md",
     "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
     "Pasted image 20260910112149.png",
     "Pasted image 20260910111946.png",
-    "CI CD/GithubAction/Anatomie d'un workflow.md",
     "NixShell.md",
     "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go DATABASE/pg_dump.md",
