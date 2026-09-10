@@ -4,11 +4,27 @@ Dès votre premier workflow, adoptez ces pratiques :
 
 1. Epingler les actions par **SHA**
 	Toujours utiliser le sha complet pas le **tag Git**
+	Le SHA pointe vers une version exacte du code.
+	Même si le mainteneur de l'action est compromis, le workflow continue d'utiliser la version verifiée.
+	
+-  Allez sur le repository de l'action (ex: github.com/actions/checkout)
+- Cliquez sur "Releases"
+- Trouvez la version souhaitée
+- Copiez le SHA du commit
+
+Ou utilisez pin-github-action pour le faire automatiquement :
+```yaml
+npx pin-github-action .github/workflows/ci.yml
+```
+
+
+
 ```YAML
 # Toujours utiliser le SHA complet, pas le tag
 - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 ```
-2. Déclarer des permissions minimales
+
+2. **Déclarer des permissions minimales**
 	Par défaut, un workflow a TROP de permissions
 	Limiter explicitement au strict nécessaire
 ```YAML
@@ -16,7 +32,8 @@ permissions:
 	content: read #lecture seule sur le code
 ```
 
-3. Ne jamais afficher de secrets dans les logs
+
+3. **Ne jamais afficher de secrets dans les logs**
 ```YAML
 # ❌ CATASTROPHE : le secret apparaît dans les logs
 - run: echo "Token: ${{ secrets.API_TOKEN }}"
@@ -27,6 +44,7 @@ permissions:
 
 
 Les workflows github actions ont accès a nos secrets(credentials), peuvent modifier notre code et déployer en production du code malveillant sans qu'on s'en rende compte.
+
 
 La pipeline :
 - **A accès aux secrets** : Tokens d'API, mots de passe de bases de données, clés de déploiement cloud...
@@ -75,12 +93,13 @@ Le mieux est d'utiliser les actions de sources fiable (Github, grandes entrepris
 3. Le code des pulls request
 	**Qu'est-ce qu'une pull request (PR) ?** Une PR, c'est une proposition de modification du code. Sur un projet open source, n'importe qui peut forker le repo (en faire une copie), modifier le code, puis proposer ses changements via une PR.
 
-	**Pourquoi c'est un vecteur d'attaque ?** Par défaut, quand quelqu'un ouvre une PR, les workflows du repo s'exécutent pour tester le code proposé. Un attaquant peut donc modifer le workflow et envoyer les secrets quelque part.
+	**Pourquoi c'est un vecteur d'attaque ?** Par défaut, quand quelqu'un ouvre une PR, les workflows du repo s'exécutent pour tester le code proposé. 
+	Un attaquant peut donc modifer le workflow et envoyer les secrets quelque part.
 	Ouvir une PR vers notre repo et récuperer les secrets quand le workflow s'exécute.
 
 ![[Pasted image 20260910114034.png]]**La bonne nouvelle** : GitHub a prévu le coup. Par défaut, les workflows déclenchés par des PRs venant de forks n'ont **pas accès aux secrets**. L'attaquant peut modifier le workflow, mais il ne récupérera rien.
-PAR CONTRE il ne faut surtout pas désactiver cette protection et se mefier de la `pull_request_target` qui contourne cette sécurité.
+**PAR CONTRE il ne faut surtout pas désactiver cette protection** et se mefier de la **`pull_request_target`** qui contourne cette sécurité.
 
-ATTENTION AUX TYPOSQUATTING
-C'est une pratique qui consiste a utiliser les fautes de frappes pour créer une action avec un nom très proche d'une action populaire.
+ATTENTION AUX **TYPOSQUATTING**
+C'est une pratique qui consiste a utiliser **les fautes de frappes** pour créer une action avec un nom très proche d'une action populaire.
 Vérifiez **toujours** l'orthographe exacte du nom de l'action ou du package. Une lettre de différence peut vous faire exécuter du code malveillant.

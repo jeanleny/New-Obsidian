@@ -39,13 +39,14 @@
             "id": "4450390a5ca4fdf4",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 1.base",
-                "viewName": "Table"
+                "file": "CI CD/GithubAction/Action & MarketPlace.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled 1"
+              "icon": "lucide-file",
+              "title": "Action & MarketPlace"
             }
           },
           {
@@ -63,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,12 +226,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f1e416775bb1ce1d",
+  "active": "4450390a5ca4fdf4",
   "lastOpenFiles": [
+    "Untitled.md",
+    "CI CD/GithubAction/Action & MarketPlace.md",
+    "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
+    "Untitled 1.base",
+    "CI CD/GithubAction/Kesako.md",
+    "CI CD/GithubAction/Secret et configuration Github Action.md",
+    "Pasted image 20260910151132.png",
+    "Pasted image 20260910151120.png",
     "Pasted image 20260910114034.png",
     "CI CD/GithubAction/Anatomie d'un workflow.md",
-    "CI CD/GithubAction/Kesako.md",
-    "CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
     "Pasted image 20260910112149.png",
     "Pasted image 20260910111946.png",
     "NixShell.md",
@@ -248,16 +255,11 @@
     "Pasted image 20260908155915.png",
     "Pasted image 20260908132052.png",
     "Pasted image 20260908131148.png",
-    "Pasted image 20260908112255.png",
-    "Pasted image 20260116150500.png",
     "RSA.md",
     "UDP.md",
-    "Untitled 1.base",
-    "Untitled.md",
     "Untitled 2.base",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Pasted image 20260909144112.png",
     "CI CD/Untitled.md",
     "CI CD/GithubAction",
     "CI CD/Kesako CI-CD.md",
@@ -268,7 +270,6 @@
     "conflict-files-obsidian-git.md",
     "CPP/This Pointer.md",
     "Excalidraw/Drawing 2026-09-08 11.02.58.excalidraw.md",
-    "Excalidraw/Drawing 2026-09-08 11.02.54.excalidraw.md",
     "Excalidraw",
     "WEB/Go/Go DATABASE",
     "Makefile/Cub3d/img",
