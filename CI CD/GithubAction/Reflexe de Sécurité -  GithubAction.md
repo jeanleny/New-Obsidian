@@ -24,3 +24,39 @@ permissions:
 # ✅ Les secrets sont masqués automatiquement si utilisés correctement
 - run: curl -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" https://api.example.com
 ```
+
+
+Les workflows github actions ont accès a nos secrets(credentials), peuvent modifier notre code et déployer en production du code malveillant sans qu'on s'en rende compte.
+
+La pipeline :
+- **A accès aux secrets** : Tokens d'API, mots de passe de bases de données, clés de déploiement cloud...
+- **Peut publier des packages** : sur npm, PyPY, DockerHub, ou notre registre privé
+- **Peut deployer en production** : modifier ce qui tourne sur nos serveurs
+- **Exécute du code sur des machines** : Peut avori accès a des réseau interne
+Un attaquant de la pipeline peut avoir accès a tout.
+
+###### L'attaque Supply Chain
+Une attaque supply chain ne nous cible pas directement. Elle cible quelque chose que l'on utilise.
+![[Pasted image 20260910111946.png]]
+
+Même sans faille dans notre code on peut avoir des failles ailleurs :
+- Une **action du marketplace** est compromise
+- Une **dépendance npm** contient du code **malveillant**
+- une **image docker** de base a  été **modifiée**
+
+Exemple :
+![[Pasted image 20260910112149.png]]
+
+###### Les 3 risques principaux de Github Actions :
+1. Les Secrets exposés
+	La bonne pratique pour stocker les secret dans github :
+	Settings -> Secrets et référencer les avec ${{secrets.NOM}} Github masque automatiquement dans les logs.
+
+```yaml
+# ✅ Le secret est stocké dans GitHub, pas dans le code
+# Personne ne peut le voir, même dans l'historique Git
+- run: curl -H "Authorization: Bearer ${{ secrets.API_KEY }}"
+```
+
+2. Les actions tierces non vérifiées
+	Une action github est un bout de code réutilisable que que quelqu'un a publié. Au lieu de réecrire la logique pour "checkout le code""

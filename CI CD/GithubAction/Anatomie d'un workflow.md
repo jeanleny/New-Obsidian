@@ -93,3 +93,18 @@ jobs:
     steps:
       - run: echo "Deploy"
 ```
+
+Utiliser une action (uses)
+
+```yaml
+steps:
+  - name: Récupérer le code
+    uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+  - name: Configurer Node.js
+    uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020  # v7.0.0
+    with:
+      node-version: 20
+```
+
+Une **action** est un bloc de code réutilisable. Plutôt que de réécrire la logique pour "récupérer le code du repo" ou "installer Node.js", vous utilisez une action existante.
