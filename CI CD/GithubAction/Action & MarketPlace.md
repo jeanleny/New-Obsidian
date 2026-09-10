@@ -25,3 +25,50 @@ gh api repos/actions/checkout/commits/v4 --jq .sha
 
 Un score élevé indique que le projet suit les bonnes pratiques : branch protection, signed releases, dependency updates, etc.
 
+#### Paramètre d'action
+La plupart des actions acceptent des paramètres via la propriété `with`:
+```yaml
+- uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+  with:
+    python-version: '3.12'      # Version de Python
+    cache: 'pip'                # Activer le cache pip
+    cache-dependency-path: |    # Fichiers pour le cache
+      requirements.txt
+      requirements-dev.txt
+```
+
+Les actions possèdent souvent des documentation détaillées pour connaître les paramètres disponible.
+
+##### Créer sa propre action
+
+Si on crée un fichier yaml contenant notre action :
+`.github/actions/setup-project/action.yml`
+
+Qui va configurer notre projet :
+```yaml
+name: 'Setup Project'
+description: 'Configure l''environnement du projet'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install dependencies
+      shell: bash
+      run: npm ci
+
+    - name: Verify installation
+      shell: bash
+      run: npm --version && node --version
+```
+Et on l'appelle dans notre workflow :
+```yaml
+steps:
+  - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+  - uses: ./.github/actions/setup-project  # Action locale
+```
