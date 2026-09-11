@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Conteneurisation/K3s/Vocabulaire.md",
+                "file": "DevOps/Conteneurisation/K3s/Kesako K3s.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vocabulaire"
+              "title": "Kesako K3s"
             }
           },
           {
@@ -228,8 +228,8 @@
   },
   "active": "4450390a5ca4fdf4",
   "lastOpenFiles": [
-    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
     "DevOps/Conteneurisation/K3s/Vocabulaire.md",
+    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
     "DevOps/Conteneurisation/K3s",
     "DevOps/IOT/Sujet.md",
     "NixShell.md",
