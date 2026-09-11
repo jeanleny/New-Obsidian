@@ -39,12 +39,14 @@
             "id": "4450390a5ca4fdf4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260908155915.png"
+                "file": "NixShell.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260908155915"
+              "icon": "lucide-file",
+              "title": "NixShell"
             }
           },
           {
@@ -226,11 +228,19 @@
   },
   "active": "4450390a5ca4fdf4",
   "lastOpenFiles": [
-    "Pasted image 20260908132052.png",
-    "Pasted image 20260908131148.png",
-    "Pasted image 20260908112255.png",
-    "Pasted image 20260116150500.png",
-    "anatomie-pipeline.DK4EQIxj_Z2hM3xt.svg",
+    "ReadMe.md",
+    "Data encapsulation.md",
+    "CPP 02.md",
+    "Constructor strange behaviour.md",
+    "ClockTicks.md",
+    "2026-07-17.md",
+    "Pictures/Pasted image 20260116150500.png",
+    "Pictures/Pasted image 20260908155915.png",
+    "Pictures",
+    "Pictures/Pasted image 20260908132052.png",
+    "Pictures/Pasted image 20260908131148.png",
+    "Pictures/Pasted image 20260908112255.png",
+    "Pictures/anatomie-pipeline.DK4EQIxj_Z2hM3xt.svg",
     "DevOps/IOT/Sujet.md",
     "DevOps",
     "DevOps/CI CD/CI, Delivery, Deployment.md",
@@ -242,12 +252,11 @@
     "Untitled 1.base",
     "DevOps/CI CD/GithubAction/Kesako.md",
     "DevOps/CI CD/GithubAction/Secret et configuration Github Action.md",
-    "Pasted image 20260910151132.png",
+    "Pictures/Pasted image 20260910151132.png",
     "Pasted image 20260910151120.png",
-    "Pasted image 20260910114034.png",
+    "Pictures/Pasted image 20260910114034.png",
     "DevOps/CI CD/GithubAction/Anatomie d'un workflow.md",
-    "Pasted image 20260910112149.png",
-    "Pasted image 20260910111946.png",
+    "Pictures/Pasted image 20260910112149.png",
     "NixShell.md",
     "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go DATABASE/pg_dump.md",
@@ -257,21 +266,14 @@
     "WEB/Go/Go Conventions.md",
     "Markup Language.md",
     "DevOps/CI CD/Architecture projet.md",
-    "Pasted image 20260909095839.png",
     "RSA.md",
     "UDP.md",
     "Untitled 2.base",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "CI CD/Untitled.md",
     "DevOps/CI CD/GithubAction",
     "DevOps/CI CD",
     "Untitled.canvas",
     "Untitled.base",
-    "Bouquet liste.md",
-    "conflict-files-obsidian-git.md",
     "Excalidraw",
-    "WEB/Go/Go DATABASE",
-    "Makefile/Cub3d/img"
+    "WEB/Go/Go DATABASE"
   ]
 }
