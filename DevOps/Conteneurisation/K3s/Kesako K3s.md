@@ -50,5 +50,12 @@ Un **server** consomme davantage dès qu'il héberge des **pods** applicatifs en
 |**Agent** (worker)|1 cœur|512 MB|5 GB|
 
 ###### Ports réseau
-Le 6443 est le seul port strictement obligatoire, c'est celui de l'API server auquel se connectent les agents et `kubectl`. 
-Le 8472/UDP ne sert qu'au réseau Flannel en mode VXLAN, donc uniquement en multi-node, et les 2379-2380 n'apparaissent que sur les serveurs d'un cluster HA avec etcd intrégé.
+Le **6443** est le seul port strictement obligatoire, c'est celui de **l'API server** auquel se connectent les agents et `kubectl`. 
+Le **8472/UDP** ne sert qu'au réseau **Flannel** en mode VXLAN, donc uniquement en multi-node, et les **2379-2380** n'apparaissent que sur les serveurs d'un cluster HA avec etcd intrégé.
+
+|Port|Protocole|Fonction|Requis pour|
+|---|---|---|---|
+|**6443**|TCP|API Kubernetes|Tous (agents, kubectl)|
+|**8472**|UDP|Flannel VXLAN|Multi-node|
+|**10250**|TCP|Kubelet metrics|Monitoring|
+|**2379-2380**|TCP|etcd|HA (serveurs uniquement)|

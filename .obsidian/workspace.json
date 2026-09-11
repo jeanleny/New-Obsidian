@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Conteneurisation/K3s/Kesako K3s.md",
+                "file": "DevOps/Conteneurisation/K3s/Installation mono-serveur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kesako K3s"
+              "title": "Installation mono-serveur"
             }
           },
           {
@@ -228,9 +228,10 @@
   },
   "active": "4450390a5ca4fdf4",
   "lastOpenFiles": [
+    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
+    "DevOps/Conteneurisation/K3s/Installation mono-serveur.md",
     "Pasted image 20260911145157.png",
     "DevOps/Conteneurisation/K3s/Vocabulaire.md",
-    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
     "DevOps/Conteneurisation/K3s",
     "DevOps/IOT/Sujet.md",
     "NixShell.md",
@@ -264,7 +265,6 @@
     "Pasted image 20260910151120.png",
     "Pictures/Pasted image 20260910114034.png",
     "DevOps/CI CD/GithubAction/Anatomie d'un workflow.md",
-    "Pictures/Pasted image 20260910112149.png",
     "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go DATABASE/pg_dump.md",
     "WEB/Go/Go DATABASE/Golang-Migrate.md",
