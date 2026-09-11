@@ -47,3 +47,19 @@ Comment lire la sortie :
 - **ROLES** : `control-plane` = c'est un server K3s
 - **AGE** : depuis combien de temps le node est dans le cluster
 - **VERSION** : version de Kubernetes
+
+Configurer kubectl pour notre utilisateur
+Par défaut, le kubeconfig est lisible uniquement par root.
+Pour utiliser kubectl sans sudo :
+```bash
+mkdir -p ~/.kube
+sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
+sudo chown $(id -u):$(id -g) ~/.kube/config
+kubectl get nodes
+```
+
+
+###### Les fichiers importants
+Ces chemins n'existent que sur un server: un agent n'a ni kuubeconfig ni `node-token`, il ne conserve que sa configuration locale et ses conteneurs. 
+Le config.yaml est le seul fichier de la liste que K3s ne crée pas, c'est a vous de le déposer avant l'installation.
+
