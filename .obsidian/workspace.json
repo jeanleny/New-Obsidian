@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NixShell.md",
+                "file": "DevOps/Conteneurisation/K3s/Vocabulaire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NixShell"
+              "title": "Vocabulaire"
             }
           },
           {
@@ -226,8 +226,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4c3311e18a02d70f",
+  "active": "4450390a5ca4fdf4",
   "lastOpenFiles": [
+    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
+    "DevOps/Conteneurisation/K3s/Vocabulaire.md",
+    "DevOps/Conteneurisation/K3s",
+    "DevOps/IOT/Sujet.md",
+    "NixShell.md",
     "DevOps/CI CD/ArgoCD",
     "DevOps/Conteneurisation",
     "DevOps/Virtualisation",
@@ -244,7 +249,6 @@
     "Pictures/Pasted image 20260908131148.png",
     "Pictures/Pasted image 20260908112255.png",
     "Pictures/anatomie-pipeline.DK4EQIxj_Z2hM3xt.svg",
-    "DevOps/IOT/Sujet.md",
     "DevOps",
     "DevOps/CI CD/CI, Delivery, Deployment.md",
     "DevOps/IOT",
@@ -260,7 +264,6 @@
     "Pictures/Pasted image 20260910114034.png",
     "DevOps/CI CD/GithubAction/Anatomie d'un workflow.md",
     "Pictures/Pasted image 20260910112149.png",
-    "NixShell.md",
     "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go DATABASE/pg_dump.md",
     "WEB/Go/Go DATABASE/Golang-Migrate.md",
@@ -269,11 +272,8 @@
     "WEB/Go/Go Conventions.md",
     "Markup Language.md",
     "DevOps/CI CD/Architecture projet.md",
-    "RSA.md",
     "Untitled 2.base",
     "DevOps/CI CD/GithubAction",
-    "DevOps/CI CD",
-    "Untitled.canvas",
-    "Untitled.base"
+    "Untitled.canvas"
   ]
 }
