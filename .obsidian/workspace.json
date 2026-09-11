@@ -226,8 +226,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4450390a5ca4fdf4",
+  "active": "4c3311e18a02d70f",
   "lastOpenFiles": [
+    "DevOps/CI CD/ArgoCD",
+    "DevOps/Conteneurisation",
+    "DevOps/Virtualisation",
     "ReadMe.md",
     "Data encapsulation.md",
     "CPP 02.md",
@@ -267,13 +270,10 @@
     "Markup Language.md",
     "DevOps/CI CD/Architecture projet.md",
     "RSA.md",
-    "UDP.md",
     "Untitled 2.base",
     "DevOps/CI CD/GithubAction",
     "DevOps/CI CD",
     "Untitled.canvas",
-    "Untitled.base",
-    "Excalidraw",
-    "WEB/Go/Go DATABASE"
+    "Untitled.base"
   ]
 }
