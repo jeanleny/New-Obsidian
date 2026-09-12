@@ -63,3 +63,12 @@ kubectl get nodes
 Ces chemins n'existent que sur un server: un agent n'a ni kuubeconfig ni `node-token`, il ne conserve que sa configuration locale et ses conteneurs. 
 Le config.yaml est le seul fichier de la liste que K3s ne crée pas, c'est a vous de le déposer avant l'installation.
 
+|Chemin|Description|
+|---|---|
+|`/etc/rancher/k3s/k3s.yaml`|Kubeconfig (certificats + token admin)|
+|`/etc/rancher/k3s/config.yaml`|Configuration K3s (à créer)|
+|`/etc/rancher/k3s/registries.yaml`|Configuration des registries|
+|`/var/lib/rancher/k3s/server/node-token`|Token pour joindre des agents|
+|`/var/lib/rancher/k3s/server/db/`|Base SQLite (datastore)|
+
+Au lieu de passer des arguments en ligne de commande
