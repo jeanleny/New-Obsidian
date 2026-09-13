@@ -44,12 +44,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: .gitignore"
+              "title": "Diff: conflict-files-obsidian-git"
             }
           }
         ],
@@ -215,7 +215,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4bcaf3bc938fddc1",
+  "active": "0065122cb2c78ab4",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "ClockTicks.md",
