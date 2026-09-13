@@ -25,21 +25,35 @@
             }
           },
           {
-            "id": "fdd5242fcd55e41b",
+            "id": "9d4020291f212ebf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Docker/Nginx.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Nginx"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "4bcaf3bc938fddc1",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,47 +215,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fdd5242fcd55e41b",
+  "active": "4bcaf3bc938fddc1",
   "lastOpenFiles": [
-    "Docker/OPEN SSL.md",
-    "Docker/Nginx.md",
-    "Docker/FastCGI.md",
-    "BUCKET LIST.md",
-    "NetPractice/TCP-IP.md",
-    "NetPractice/Table de routage.md",
-    "NetPractice/Netpractice utils.md",
-    "NetPractice/Lan.md",
-    "Untitled.canvas",
-    "Untitled.base",
-    "RSA.md",
-    "UDP.md",
-    "NixShell.md",
-    "Markup Language.md",
-    "File descriptor.md",
-    "Data encapsulation.md",
-    "Constructor strange behaviour.md",
+    "conflict-files-obsidian-git.md",
     "ClockTicks.md",
-    "2026-07-17.md",
-    "database migration.md",
-    "IRC/ReadMe.md",
     "Images/Pasted image 20260116150500.png",
-    "Images",
-    "WEB/Go/Go DATABASE/Golang-Migrate.md",
-    "Docker/Docker compose.md",
-    "Docker/Inception-config/wordpress dockerfile.md",
-    "Docker/Inception-config/Nginx config.md",
-    "Docker/Inception-config/Mariadb entrypoint.sh.md",
-    "Docker/Inception-config/Mariadb dockerfile.md",
-    "Docker/Inception-config/Inception docker compose.md",
-    "WEB/Go/Go DATABASE",
-    "WEB/Typescript",
-    "WEB/RouteFull",
-    "WEB/Organisation",
-    "WEB/HTPP",
-    "WEB/Go",
-    "WEB/Fastify",
-    "WEB/Database",
-    "Makefile/Cub3d/img/Pasted image 20251021102528.png",
-    "Makefile/Cub3d/img/Pasted image 20251021103656.png"
+    "Pictures/Pasted image 20260116150500.png",
+    "Data encapsulation.md",
+    "Docker/Nginx.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Pictures/anatomie-pipeline.DK4EQIxj_Z2hM3xt.svg",
+    "Pictures/Pasted image 20260910151132.png",
+    "Pictures/Pasted image 20260910114034.png",
+    "Pictures/Pasted image 20260910112149.png",
+    "Pictures/Pasted image 20260910111946.png",
+    "Pictures/Pasted image 20260909144112.png",
+    "Pictures/Pasted image 20260909141301.png",
+    "Pictures/Pasted image 20260909140256.png",
+    "Pictures",
+    "Excalidraw/Drawing 2026-09-08 11.02.58.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-08 11.02.54.excalidraw.md",
+    "Excalidraw",
+    "DevOps/Conteneurisation/Docker/Inception-config/wordpress entrypoint.sh.md",
+    "DevOps/Conteneurisation/Docker/Inception-config/wordpress dockerfile.md",
+    "DevOps/Conteneurisation/Docker/Inception-config/Nginx config.md",
+    "DevOps/Conteneurisation/Docker/Inception-config/Mariadb entrypoint.sh.md",
+    "DevOps/Conteneurisation/Docker/Inception-config/Mariadb dockerfile.md",
+    "DevOps/Conteneurisation/Docker/Inception-config/Inception docker compose.md",
+    "DevOps/Conteneurisation/K3s/Vocabulaire.md",
+    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
+    "DevOps/Conteneurisation/K3s/Installation mono-serveur.md",
+    "DevOps/Conteneurisation/Docker/YAML.md",
+    "DevOps/Conteneurisation/Docker/TLS SSL.md",
+    "DevOps/Conteneurisation/Docker/PHP-FPM.md",
+    "DevOps/Conteneurisation/Docker/OPEN SSL.md",
+    "DevOps/Conteneurisation/Docker/Nginx.md",
+    "DevOps/Conteneurisation/Docker/Inception-config",
+    "DevOps/Conteneurisation/Docker/FastCGI.md",
+    "DevOps/Conteneurisation/Docker/Docker compose.md",
+    "DevOps/Conteneurisation/Docker/Daemon.md",
+    "DevOps/CI CD/GithubAction/Secret et configuration Github Action.md",
+    "DevOps/CI CD/GithubAction/Reflexe de Sécurité -  GithubAction.md",
+    "DevOps/CI CD/GithubAction/Kesako.md",
+    "DevOps/Conteneurisation/K3s",
+    "DevOps/Conteneurisation/Docker",
+    "DevOps/CI CD/GithubAction",
+    "DevOps/IOT",
+    "DevOps/Conteneurisation",
+    "Untitled.canvas"
   ]
 }
