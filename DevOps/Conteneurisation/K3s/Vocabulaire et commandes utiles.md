@@ -9,3 +9,37 @@
 | Pod             | La plus petite unité dans kubernetes : un ou plusieurs conteneurs qui tournent ensemble                                             |
 | kubeconfig      | Un fichier qui contient les informations de connexion à votre cluster (adresse, certificats, tokens)                                |
 | Token           | Un mot de passe secret qui permet aux agents de rejoindre le cluster                                                                |
+Pour lister les services :
+```bash 
+kubectl get svc
+```
+
+Pour lister les Pods (conteneurs)
+```bash
+kubectl get pods
+```
+
+Editer le fichier de config d'un déploiement
+```bash
+kubectl edit deployment <nom_du_déploiement>
+```
+
+Voir les logs du déploiement
+```bash
+kubectl logs deployment/<nom_du_déploiement>
+```
+
+Pour lister les images du cluster
+```bash
+k3s ctr images ls
+```
+
+Pour exposer les ports d'un certain déploiement :
+```bash
+kubectl expose deployment <nom_du_déploiement> --port=80 --target-port=8080 --type=NodePort
+```
+ Pour supprimer des élément
+ ```bash
+ kubectl delete svc/deployment <nom_de_l'élément>
+ ```
+ 

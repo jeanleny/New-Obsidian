@@ -39,14 +39,14 @@
             "id": "4450390a5ca4fdf4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "DevOps/Conteneurisation/K3s/Vocabulaire et commandes utiles.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Vocabulaire et commandes utiles"
             }
           },
           {
@@ -229,11 +229,11 @@
   "active": "4450390a5ca4fdf4",
   "lastOpenFiles": [
     "DevOps/Conteneurisation/K3s/Installation mono-serveur.md",
+    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
+    "DevOps/Conteneurisation/K3s/Vocabulaire et commandes utiles.md",
     "IRC/ReadMe.md",
     "BUCKET LIST.md",
-    "DevOps/Conteneurisation/K3s/Kesako K3s.md",
     "Pasted image 20260911145157.png",
-    "DevOps/Conteneurisation/K3s/Vocabulaire.md",
     "DevOps/Conteneurisation/K3s",
     "DevOps/IOT/Sujet.md",
     "NixShell.md",
