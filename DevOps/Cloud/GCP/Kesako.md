@@ -24,4 +24,10 @@ Elle possède aussi des remises automatique quand une ressource tourne une grand
 | **Vertex AI**      | plateforme IA/ML (modèles Gemini)                                                                                                                                                                                            |
 En DB GCP propose aussi AlloyDb (PostGre haute perf) et Spanner, une base de données relationelle distribuée a l'echelle mondiale.
 
+Trois domaines ou GCP est souvent cité en premier.
+
+- La donnée avec BigQuery.
+Un entrepôt de données serverless qui analyse des pétaoctets sans gérer de cluster.
+On charge les données, on écrit du SQL, GCP gère le calcul et la mise à l'échelle.
+Pour des équipes data, c'est fréquemment l'argument décisif.
 
