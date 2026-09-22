@@ -22,3 +22,6 @@ Elle possède aussi des remises automatique quand une ressource tourne une grand
 | **Cloud Run**      | conteneurs _serverless_                                                                                                                                                                                                      |
 | **VPC**            | réseau privé (global chez GCP)                                                                                                                                                                                               |
 | **Vertex AI**      | plateforme IA/ML (modèles Gemini)                                                                                                                                                                                            |
+En DB GCP propose aussi AlloyDb (PostGre haute perf) et Spanner, une base de données relationelle distribuée a l'echelle mondiale.
+
+
