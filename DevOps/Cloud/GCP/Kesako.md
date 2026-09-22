@@ -37,4 +37,4 @@ Google conçoit ses propres [TPU](https://fr.wikipedia.org/wiki/Tensor_Processin
 - Kubernetes a la source. Google a crée Kubernetes avant de le confier CNCF.
   GKE est donc le kubernetes managé de l'inventeur, avec un mode AutoPilot où google gère entierement les noeuds.
   
-  
+A linverse D'aws, le VPC est une ressource générale qui n'a pas de limite.
