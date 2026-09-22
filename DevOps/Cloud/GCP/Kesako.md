@@ -37,4 +37,10 @@ Google conçoit ses propres [TPU](https://fr.wikipedia.org/wiki/Tensor_Processin
 - Kubernetes a la source. Google a crée Kubernetes avant de le confier CNCF.
   GKE est donc le kubernetes managé de l'inventeur, avec un mode AutoPilot où google gère entierement les noeuds.
   
-A linverse D'aws, le VPC est une ressource générale qui n'a pas de limite.
+A linverse D'aws, le VPC(Cloud Privé) est une ressource générale qui n'a pas de limite géographique.
+
+- AWS est leader dans la largeur du catalogue avec une grande maturité
+- Azure est le cloud d'intégration microsoft (windows éclatax)
+- GCP se différencie sur la data, l'ia, Kubernetes et un modèle tarifaire avantageux.
+  
+  
