@@ -31,3 +31,10 @@ Un entrepôt de données serverless qui analyse des pétaoctets sans gérer de c
 On charge les données, on écrit du SQL, GCP gère le calcul et la mise à l'échelle.
 Pour des équipes data, c'est fréquemment l'argument décisif.
 
+- L'IA et le machine learning.
+Google conçoit ses propres [TPU](https://fr.wikipedia.org/wiki/Tensor_Processing_Unit).
+
+- Kubernetes a la source. Google a crée Kubernetes avant de le confier CNCF.
+  GKE est donc le kubernetes managé de l'inventeur, avec un mode AutoPilot où google gère entierement les noeuds.
+  
+  
