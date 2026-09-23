@@ -29,5 +29,23 @@ To apply it, you need
 - the `-path` is to find the .sql files
 - `up` is a subcommand which tells golang migrate to take the newer than the current migration.
 
-
-
+In case of 
+```bash
+migrations-1  | error: failed to open database: dial tcp 172.18.0.2:5432: connect: connection refused
+```
+Docker compose only wait for the container to start.
+But Postgres is still working on setting up the DB.
+So the right thing is to do a health check:
+```YAML
+  healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 2s
+      timeout: 5s
+      retries: 10
+```
+ And add the condition on the depends_on property :
+ ```yaml
+ depends_on:
+      db:
+        condition: service_healthy
+ ```
