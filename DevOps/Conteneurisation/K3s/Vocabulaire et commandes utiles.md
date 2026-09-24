@@ -42,4 +42,9 @@ kubectl expose deployment <nom_du_déploiement> --port=80 --target-port=8080 --t
  ```bash
  kubectl delete svc/deployment <nom_de_l'élément>
  ```
+
+Explication d'un deploiement kubernetes dans un fichier de config
+```bash
+kubectl explain deployment
+```
  
