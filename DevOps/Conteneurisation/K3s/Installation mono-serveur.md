@@ -71,4 +71,3 @@ Le config.yaml est le seul fichier de la liste que K3s ne crée pas, c'est a vou
 |`/var/lib/rancher/k3s/server/node-token`|Token pour joindre des agents|
 |`/var/lib/rancher/k3s/server/db/`|Base SQLite (datastore)|
 
-Au lieu de passer des arguments en ligne de commande
