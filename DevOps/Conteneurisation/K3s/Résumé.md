@@ -24,3 +24,4 @@ Toute l'instance k3s est configuré par le [[Config.yaml k3s]]
 Le registries.yaml k3s lui explique comment containerd doit se comporter.
 Quelles images avec quelles credentials...
 
+Les applications
