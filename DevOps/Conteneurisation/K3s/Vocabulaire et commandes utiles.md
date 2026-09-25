@@ -34,6 +34,11 @@ Pour lister les images du cluster
 k3s ctr images ls
 ```
 
+Plus simple
+```bash
+k3s crictl images
+```
+
 Pour exposer les ports d'un certain déploiement :
 ```bash
 kubectl expose deployment <nom_du_déploiement> --port=80 --target-port=8080 --type=NodePort
