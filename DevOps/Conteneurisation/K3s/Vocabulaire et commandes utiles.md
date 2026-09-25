@@ -29,15 +29,6 @@ Voir les logs du déploiement
 kubectl logs deployment/<nom_du_déploiement>
 ```
 
-Pour lister les images du cluster
-```bash
-k3s ctr images ls
-```
-
-Plus simple
-```bash
-k3s crictl images
-```
 
 Pour exposer les ports d'un certain déploiement :
 ```bash
@@ -52,4 +43,23 @@ Explication d'un deploiement kubernetes dans un fichier de config
 ```bash
 kubectl explain deployment
 ```
- 
+
+## Commande k3s
+
+Kubectl est l'outil de commande de base de kubernetes
+K3s lui possède déja des outils de commande comme `crictl` qui sert a parler aux containers a runtime.
+
+ Pour lister les images du cluster
+```bash
+k3s ctr images ls
+```
+
+Plus simple
+```bash
+k3s crictl images
+```
+
+Pour lister les containers :
+```bash
+k3s crictl ps
+```
