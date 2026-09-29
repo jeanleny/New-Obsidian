@@ -34,4 +34,6 @@ C'est pour cela qu'il faut changer chacune des commandes de gestions apt pour ap
 Dans certains cas, les images chainguar due a la nature des images distroless, ne peuvent pas reproduire le comportement de certains entrypoint.
 Toujours se réferer a la documentation des containers Chainguard.
 
-
+#### Travailler en multi-stage 
+Vu que les containers sont distroless par défaut, avoir une image -dev permet d'être utilisé pour débuguer et construire le projet.
+La meilleur utilisation de chainguard est de combiner des images distroless avec des images -dev en [[multi-stage]] build.
