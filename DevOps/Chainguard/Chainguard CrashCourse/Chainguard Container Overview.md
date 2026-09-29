@@ -38,3 +38,5 @@ Toujours se réferer a la documentation des containers Chainguard.
 Vu que les containers sont distroless par défaut, avoir une image -dev permet d'être utilisé pour débuguer et construire le projet.
 La meilleur utilisation de chainguard est de combiner des images distroless avec des images -dev en [[Multi-Stage]] build.
 
+Dans l'étape du build, on installe toutes les dépendances et les tâche qui necessites apk pour construire les artefacts.
+Dans le final stage on va juste copier tous les artefacts dans les environnement distroless.
