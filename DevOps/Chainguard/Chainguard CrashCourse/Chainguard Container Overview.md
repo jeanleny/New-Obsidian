@@ -48,3 +48,15 @@ Il y a deux stratégies utilisées dans les projets open-source pour mettre a jo
 
 Dans les deux cas il est important de garder a jour les images utilisés, c'est l'une des étapes les plus importantes en termes de stratégies pour la maintenance du logiciel.
 
+#### Les tags disponibles
+En plus de -dev, les images peuvent avoir d'autre tag.
+
+| latest                      | Distroless, contains the latest Python version release, which at the time of writing is **3.12.5**                                      |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| latest-dev                  | The same as **latest** but includes apk and other utilities for building and debugging                                                  |
+| 3, 3.12, 3.12.5             | At the time of writing, these all point to the same image build referenced by **latest**. When **3.12.6** is released, this will change |
+| 3-dev, 3.12-dev, 3.12.5-dev | The same as previous, except these include apk and other utilities                                                                      |
+| 3.12.4                      | Distroless, contains Python version **3.12.4**                                                                                          |
+| 3.12.4-dev                  | The same as **3.12.4**, but including apk and other utilities for building and debugging                                                |
+| 3.11, 3.11.9                | Distroless, both pointing to the same image build that includes Python version **3.11.9**                                               |
+| 3.11-dev, 3.11.9-dev        | The same as previous, except these include apk and other utilities                                                                      |
