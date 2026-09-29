@@ -26,5 +26,12 @@ Les artefacts de chainguard sont signés avec [[Cosign]] et les signatures sont 
 Chainguard est distroless par défaut, ce qui fait qu'ils n'ont pas de shell ou de package manager par défaut.
 Ce qui en fait de très légère images a manipuler.
 Cependant, chainguard peut utiliser des images avec le suffixe **-dev**.
+
+1. Apk package manager
 Ces images contiennent la paquet manager [[apk]] et la suite [[Busybox]].
+C'est pour cela qu'il faut changer chacune des commandes de gestions apt pour apk.
+2. Entrypoint behaviour
+Dans certains cas, les images chainguar due a la nature des images distroless, ne peuvent pas reproduire le comportement de certains entrypoint.
+Toujours se réferer a la documentation des containers Chainguard.
+
 
