@@ -10,3 +10,4 @@ Les packages sont définis dans des fichiers YAML qui permettent une sophisticat
 
 En réduisant la taille de l'OS, la surface d'attaque devient bien mien vulnérable mais prennent aussi beaucoup moins de place.
 
+Attestation de provenance et [[SBOM]]
