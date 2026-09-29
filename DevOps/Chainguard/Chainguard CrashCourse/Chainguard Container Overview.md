@@ -40,3 +40,11 @@ La meilleur utilisation de chainguard est de combiner des images distroless avec
 
 Dans l'étape du build, on installe toutes les dépendances et les tâche qui necessites apk pour construire les artefacts.
 Dans le final stage on va juste copier tous les artefacts dans les environnement distroless.
+
+#### Comprendre les versions d'images
+Il y a deux stratégies utilisées dans les projets open-source pour mettre a jour leurs projet.
+- On update tout le projet avec la dernière version pour tout le monde. Cela fonctionne pour de petits projets et des projets qui n'introduise pas forcément des changement drastiques dans les releases.
+- On garde de nombreuses versions du projet pour permettre plusieurs versions laissant du temps aux utilisateurs de migrer sur les nouvelles. Ce qui est utilisés par de bien plus gros projets.
+
+Dans les deux cas il est important de garder a jour les images utilisés, c'est l'une des étapes les plus importantes en termes de stratégies pour la maintenance du logiciel.
+
