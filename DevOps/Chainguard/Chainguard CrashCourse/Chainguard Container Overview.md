@@ -60,3 +60,24 @@ En plus de -dev, les images peuvent avoir d'autre tag.
 | 3.12.4-dev                  | The same as **3.12.4**, but including apk and other utilities for building and debugging                                                |
 | 3.11, 3.11.9                | Distroless, both pointing to the same image build that includes Python version **3.11.9**                                               |
 | 3.11-dev, 3.11.9-dev        | The same as previous, except these include apk and other utilities                                                                      |
+
+#### Epingler les digest vs epingler les tag.
+
+Il n'es jamais bon d'utiliser latest ou latest-dev, les nouvelles maj pourraient casser le fonctionnement actuel de l'application.
+C'est pour cela qu'il est préférable d'utiliser des digest.
+
+Un digest est un identfiant unique et immuable qui pointe vers une version spécifique d'une image. Il est représenté par une clé de cryptage.
+On peut le voir lorsqu'on le pull :
+
+![[Pasted image 20260929154913.png]]
+Ca marche pour éviter les problèmes de maj, mais avec le temps il est préferable de migrer vers les nouvelles images pour éviter les potentielles failles accumulées.
+
+Pour cela, on peut utiliser Digestabot, une github action qui envoie des pulls request lorsque l'image utilisé est mise a jour.
+
+Sinon, utiliser les tag.
+Cela permet de quand même laisser les mises a jour de sécurité sans trop toucher casser le fonctionnement de base.
+
+#### EOL 
+Lorsque les images arrivent en End Of Life.
+Chainguard assure une période de grace de 6 mois ou l'image pourra toujours être construite avant d'arrêter.
+

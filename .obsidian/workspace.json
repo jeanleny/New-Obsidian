@@ -185,6 +185,7 @@
   },
   "active": "449a7e9fc9645a10",
   "lastOpenFiles": [
+    "Pasted image 20260929154913.png",
     "DevOps/Chainguard/Chainguard CrashCourse/Reproducible builds.md",
     "DevOps/Conteneurisation/Docker/Multi-Stage.md",
     "DevOps/Chainguard/Chainguard CrashCourse/Chainguard Container Overview.md",
@@ -212,7 +213,6 @@
     "DevOps/Conteneurisation/Docker/Inception-config/wordpress entrypoint.sh.md",
     "DevOps/Conteneurisation/Docker/Inception-config/wordpress dockerfile.md",
     "DevOps/Conteneurisation/Docker/Inception-config/Nginx config.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/Mariadb entrypoint.sh.md",
     "DevOps/IAC",
     "DevOps/Cloud/GCP",
     "DevOps/Cloud",
