@@ -1,5 +1,7 @@
 Ce sont des pratique de developpement logiciel permettant de garantir qu'un même code source, compilé dans le même environnement et avec les mêmes instructions va produire un fichier binaire identique octet par octet peu importe qui effecture la compilation ou à quel moment.
 
+**En gros** ça veut littéralement dire que le porgramme est reproductible entre plusieurs build sans AUCUNE variations d'octets.
+
 Cela permet a nimporte quel tiers de vérifier de manière indépendante que le logiciel exécuté correspond exactement au code source.
 
 Cela permet de lutter contre les attaques de la chaîne d'approvisionnement.
