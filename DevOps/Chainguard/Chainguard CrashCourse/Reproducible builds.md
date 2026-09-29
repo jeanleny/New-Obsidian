@@ -1,1 +1,3 @@
 Ce sont des pratique de developpement logiciel permettant de garantir qu'un même code source, compilé dans le même environnement et avec les mêmes instructions va produire un fichier binaire identique octet par octet peu importe qui effecture la compilation ou à quel moment.
+
+Cela permet a nimporte quel tiers de vérifier de manière indépendante que le logiciel exécuté correspond exactement au code source.
