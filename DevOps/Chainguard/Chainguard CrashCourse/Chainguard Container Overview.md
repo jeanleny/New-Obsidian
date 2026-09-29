@@ -36,4 +36,5 @@ Toujours se réferer a la documentation des containers Chainguard.
 
 #### Travailler en multi-stage 
 Vu que les containers sont distroless par défaut, avoir une image -dev permet d'être utilisé pour débuguer et construire le projet.
-La meilleur utilisation de chainguard est de combiner des images distroless avec des images -dev en [[multi-stage]] build.
+La meilleur utilisation de chainguard est de combiner des images distroless avec des images -dev en [[Multi-Stage]] build.
+
