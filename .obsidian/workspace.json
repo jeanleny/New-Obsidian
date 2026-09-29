@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Chainguard/Chainguard CrashCourse/BusyBox.md",
+                "file": "DevOps/Chainguard/Chainguard CrashCourse/apk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BusyBox"
+              "title": "apk"
             }
           }
         ]
@@ -186,10 +186,11 @@
   "active": "449a7e9fc9645a10",
   "lastOpenFiles": [
     "DevOps/Chainguard/Chainguard CrashCourse/Chainguard Container Overview.md",
-    "DevOps/Chainguard/Chainguard CrashCourse/BusyBox.md",
-    "DevOps/Chainguard/Chainguard CrashCourse/Reproducible builds.md",
+    "DevOps/Chainguard/Chainguard CrashCourse/apk.md",
     "DevOps/Chainguard/Chainguard CrashCourse/Cosign.md",
     "DevOps/Chainguard/Chainguard CrashCourse/SBOM.md",
+    "DevOps/Chainguard/Chainguard CrashCourse/Reproducible builds.md",
+    "DevOps/Chainguard/Chainguard CrashCourse/BusyBox.md",
     "DevOps/Chainguard/Chainguard CrashCourse",
     "DevOps/Conteneurisation/K3s/Adding custom image.md",
     "DevOps/Chainguard",
@@ -212,7 +213,6 @@
     "DevOps/Conteneurisation/Docker/Inception-config/Nginx config.md",
     "DevOps/Conteneurisation/Docker/Inception-config/Mariadb entrypoint.sh.md",
     "DevOps/Conteneurisation/Docker/Inception-config/Mariadb dockerfile.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/Inception docker compose.md",
     "DevOps/IAC",
     "DevOps/Cloud/GCP",
     "DevOps/Cloud",
