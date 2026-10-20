@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Chainguard/Fips Images/Intro.md",
+                "file": "DevOps/Chainguard/Ai_Tamer/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro"
+              "title": "Untitled"
             }
           }
         ],
@@ -201,7 +201,9 @@
   "active": "0d58b8d2717c320d",
   "lastOpenFiles": [
     "DevOps/Conteneurisation/K3s/Vocabulaire et commandes utiles.md",
-    "DevOps/Chainguard/Fips Images/Intro.md",
+    "DevOps/Chainguard/Ai_Tamer/Untitled.md",
+    "DevOps/Chainguard/Ai_Tamer",
+    "DevOps/Chainguard/Fips Images/KESAKO.md",
     "DevOps/Chainguard/Fips Images",
     "DevOps/Conteneurisation/K3s/Config.yaml k3s.md",
     "DevOps/Conteneurisation/K3s/Adding custom image.md",
@@ -227,7 +229,6 @@
     "DevOps/Conteneurisation/Untitled.md",
     "DevOps/Chainguard/Chainguard CrashCourse/apk.md",
     "DevOps/Chainguard/Chainguard CrashCourse/Cosign.md",
-    "DevOps/Chainguard/Chainguard CrashCourse/SBOM.md",
     "DevOps/Chainguard/Chainguard CrashCourse",
     "DevOps/Chainguard",
     "DevOps/IAC",
@@ -237,7 +238,6 @@
     "DevOps/Conteneurisation/K3s",
     "DevOps/CI CD/ArgoCD",
     "DevOps/Conteneurisation",
-    "DevOps/Virtualisation",
     "Pictures/Pasted image 20260116150500.png",
     "Pictures/Pasted image 20260908155915.png",
     "Pictures/Pasted image 20260908132052.png",
