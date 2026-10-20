@@ -1,4 +1,4 @@
-L'installation la plus simple : un serveur unique qui fait tourner le control plane et les workloads.
+ L'installation la plus simple : un serveur unique qui fait tourner le control plane et les workloads.
 
 ###### C'est quoi un cluster mono-serveur ?
 Un cluster avec une seule machine qui fait tout : elle prend les décisions (control plane) ET exécute vos applications (workloads). 
