@@ -17,3 +17,30 @@ You will have a new **migration**, a new version control of your database.
 
 ### Remind
 You dont edit the current migration, you create another one with you're Database framework. This way you're data are kept.
+
+In order 
+
+#### Create migration 
+
+This cmd will create the sql file in the migration dir with a given file name "add_password_to_users"
+```bash
+migrate create -ext sql -dir migrations -seq add_password_to_users
+```
+
+#### Add the SQL content to the file to both created file
+
+The up.sql : Used to add a DB modification:
+```sql
+ALTER TABLE users ADD COLUMN password VARCHAR NOT NULL DEFAULT '';
+```
+
+The down.sql  : Used to revert a DB modification
+```sql
+ALTER TABLE users DROP COLUMN password;
+```
+
+#### Apply migration 
+This will apply the migration to the database
+``` bash
+migrate -path migrations -database "postgres://user:pass@localhost:5432/scheduler?sslmode=disable" up
+```
