@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Database/database Migrations.md",
+                "file": "Data encapsulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "database Migrations"
+              "title": "Data encapsulation"
             }
           }
         ],
@@ -214,10 +214,15 @@
   },
   "active": "c5049b3fc974fccd",
   "lastOpenFiles": [
+    "JavaScript/JavaScript.md",
+    "Data encapsulation.md",
+    "CPP 02.md",
+    "File descriptor.md",
+    "Markup Language.md",
+    "WEB/Database/database Migrations.md",
     "WEB/Database/Definition.md",
     "WEB/Database/DSN.md",
     "WEB/Database/Modèle de base de données informatisées.md",
-    "WEB/Database/database Migrations.md",
     "WEB/Go/Go DATABASE/Golang-Migrate.md",
     "WEB/Go/Init Project and go.mod.md",
     "WEB/Go/Import libs.md",
@@ -237,11 +242,6 @@
     "DevOps/Conteneurisation/Docker/Inception-config/Nginx config.md",
     "DevOps/Conteneurisation/Docker/Daemon.md",
     "DevOps/Conteneurisation/Docker/Nginx.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/wordpress dockerfile.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/Mariadb dockerfile.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/Inception docker compose.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/Mariadb entrypoint.sh.md",
-    "DevOps/Conteneurisation/Docker/YAML.md",
     "Pasted image 20260929154913.png",
     "DevOps/Chainguard/Chainguard CrashCourse",
     "DevOps/Chainguard",
