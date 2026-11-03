@@ -1,5 +1,0 @@
-- [x] Envoyer un msg a Marc
-- [x] Demander un RDV a Josepha
-- [ ] Refaire Un CV
-- [ ] Trouver Stage/Alternance
-- [ ] Lire l'appel d'offre de david

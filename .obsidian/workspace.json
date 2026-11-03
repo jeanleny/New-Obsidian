@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data encapsulation.md",
+                "file": "WEB/Go/HTMX/HTMX basic explanation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data encapsulation"
+              "title": "HTMX basic explanation"
             }
           }
         ],
@@ -214,8 +214,15 @@
   },
   "active": "c5049b3fc974fccd",
   "lastOpenFiles": [
-    "JavaScript/JavaScript.md",
+    "WEB/Go/Init Project and go.mod.md",
+    "WEB/Go/HTMX/HTMX basic explanation.md",
+    "WEB/Go/HTMX",
+    "WEB/Go/Import libs.md",
+    "WEB/Go/Go Conventions.md",
     "Data encapsulation.md",
+    "BUCKET LIST.md",
+    "WEB/RouteFull/Untitled.md",
+    "JavaScript/JavaScript.md",
     "CPP 02.md",
     "File descriptor.md",
     "Markup Language.md",
@@ -224,9 +231,6 @@
     "WEB/Database/DSN.md",
     "WEB/Database/Modèle de base de données informatisées.md",
     "WEB/Go/Go DATABASE/Golang-Migrate.md",
-    "WEB/Go/Init Project and go.mod.md",
-    "WEB/Go/Import libs.md",
-    "WEB/Go/Go Conventions.md",
     "WEB/Go/Go DATABASE/POSTGRES.md",
     "WEB/Go/Go DATABASE/pg_dump.md",
     "DevOps/Conteneurisation/K3s/Vocabulaire et commandes utiles.md",
@@ -239,9 +243,6 @@
     "DevOps/Conteneurisation/Docker/Docker compose.md",
     "DevOps/IAM.md",
     "DevOps/IOT/Sujet.md",
-    "DevOps/Conteneurisation/Docker/Inception-config/Nginx config.md",
-    "DevOps/Conteneurisation/Docker/Daemon.md",
-    "DevOps/Conteneurisation/Docker/Nginx.md",
     "Pasted image 20260929154913.png",
     "DevOps/Chainguard/Chainguard CrashCourse",
     "DevOps/Chainguard",
@@ -251,7 +252,6 @@
     "Pasted image 20260911145157.png",
     "DevOps/Conteneurisation/K3s",
     "DevOps/CI CD/ArgoCD",
-    "DevOps/Conteneurisation",
     "Pictures/Pasted image 20260116150500.png",
     "Pictures/Pasted image 20260908155915.png",
     "Pictures/Pasted image 20260908132052.png",
